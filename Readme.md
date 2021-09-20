@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Данила Гусев](https://up.htmlacademy.ru/htmlcss/32/user/1756111).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Корелин](https://htmlacademy.ru/profile/maxzbest).
 
 ---
 
