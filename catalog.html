@@ -8,25 +8,25 @@
 </head>
 <body>
     <!--Хедер-->
-    <header>
-        <div>
-            <img src="img/device.svg" alt="#">
-            <form action="#">
-                <img src="img/search.svg" alt="#">
-                <input type="search">
+    <header class="header">
+        <h1 class="visually-hidden">Device</h1>
+        <img src="img/device.svg" alt="#">
+        <div class="header__custom-menu">
+            <form action="#" class="header__search">
+                <input type="search" placeholder="Поиск по сайту">
             </form>
-            <ol>
-                <li><img src="img/person.svg" alt="#">Войти</li>
-                <li><img src="img/compare.svg" alt="#">Сравнить</li>
-                <li><figure>2</figure><img src="img/cart.svg" alt="#">Корзина</li>
+            <ol class="header__option">
+                <li>Войти</li>
+                <li>Сравнить</li>
+                <li>Корзина</li>
             </ol>
         </div>
         <div>
-            <button>Каталог товаров</button>
-            <ol>
-                <li>Доставка</li>
-                <li>Гарантия</li>
-                <li>Контакты</li>
+            <button class="header__catalog">Каталог товаров</button>
+            <ol class="header__navigation">
+                <li><nav>Доставка</nav></li>
+                <li><nav>Гарантия</nav></li>
+                <li><nav>Контакты</nav></li>
             </ol>
         </div>
     </header>
@@ -50,23 +50,34 @@
             <div>
                 <span>Фильтр:</span>
                 <form action="#">
-                    <div>
-                        <span>Стоимость</span>
-                        <input type="range" min="0" step="1" max="5000">
-                    </div>
-                    <div>
-                        <span>Цвет</span>
+                    <fieldset>
+                        <legend>Стоимость</legend>
+                        <button type="button">
+                            <span class="visually-hidden">Изменить минимальную цену.</span>
+                        </button>
+                        <button type="button">
+                            <span class="visually-hidden">Изменить максимальную цену.</span>
+                        </button>
+                        <label>
+                            от <input type="number" name="min-price"> ₽
+                        </label>
+                        <label>
+                            до <input type="number" name="max-price"> ₽
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Цвет</legend>
                         <label for="#"><input type="checkbox" checked><span>Черный</span></label>
                         <label for="#"><input type="checkbox" checked><span>Белый</span></label>
                         <label for="#"><input type="checkbox"><span>Синий</span></label>
                         <label for="#"><input type="checkbox"><span>Красный</span></label>
                         <label for="#"><input type="checkbox"><span>Розовый</span></label>
-                    </div>
-                    <div>
-                        <span>Bluetooth</span>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Bluetooth</legend>
                         <label for="radio"><input type="radio" checked name="radio">Да</label>
                         <label for="radio"><input type="radio" name="radio">Нет</label>
-                    </div>
+                    </fieldset>
                     <button>Показать</button>
                 </form>
             </div>
@@ -144,11 +155,11 @@
     </main>
 
     <!--Футер-->
-    <footer>
+    <footer class="footer">
         <div>
             <img src="img/logoyellow.svg" alt="Девайс">
         </div>
-        <div>
+        <div class="footer__contacts">
             <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
             <ol>
                 <li><a href="#">Доставка</a></li>
@@ -159,7 +170,7 @@
                 Тел.: +7 (812) 812-12-12
             </span>
         </div>
-        <div>
+        <div class="footer__social-network">
             <figure></figure>
             <ul>
                 <li><a href="https://www.facebook.com/htmlacademy"></a></li>
