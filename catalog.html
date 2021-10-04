@@ -32,12 +32,12 @@
     </header>
     <main>
         <!--Хлебные крошки-->
-        <section>
+        <section class="crumbs">
             <div>
                 <h1>Моноподы для селфи</h1>
             </div>
             <div>
-                <ul>
+                <ul class="crumbs__list">
                     <li><a href="#">Главная</a></li>
                     <li>Каталог товаров</a></li>
                     <li>Моноподы для селфи</a></li>
@@ -46,11 +46,12 @@
         </section>
 
         <!--Подбор товара-->
-        <section>
-            <div>
+        <section class="catalog">
+
+            <div class="options">
                 <span>Фильтр:</span>
                 <form action="#">
-                    <fieldset>
+                    <fieldset class="options__price">
                         <legend>Стоимость</legend>
                         <button type="button">
                             <span class="visually-hidden">Изменить минимальную цену.</span>
@@ -65,7 +66,7 @@
                             до <input type="number" name="max-price"> ₽
                         </label>
                     </fieldset>
-                    <fieldset>
+                    <fieldset class="options__color">
                         <legend>Цвет</legend>
                         <label for="#"><input type="checkbox" checked><span>Черный</span></label>
                         <label for="#"><input type="checkbox" checked><span>Белый</span></label>
@@ -73,17 +74,21 @@
                         <label for="#"><input type="checkbox"><span>Красный</span></label>
                         <label for="#"><input type="checkbox"><span>Розовый</span></label>
                     </fieldset>
-                    <fieldset>
+                    <fieldset class="options__blutooth">
                         <legend>Bluetooth</legend>
                         <label for="radio"><input type="radio" checked name="radio">Да</label>
                         <label for="radio"><input type="radio" name="radio">Нет</label>
                     </fieldset>
-                    <button>Показать</button>
+                    <button class="options__button">Показать</button>
                 </form>
             </div>
 
-            <div>
-                <div>
+
+
+
+            <div class="products">
+
+                <div class="products__sorting">
                     <label for="#">
                         <span>Сортировка:</span>
                         <select>
@@ -97,48 +102,55 @@
                     </label>
                 </div>
 
-                <div>
-                    <div>
-                        <div>
-                            <ul>
-                                <li>
-                                    <a href="#"><img src="img/product-1.png" alt="Любительская селфи-палка"></a>
-                                    <div>
-                                        <span><a href="#">Любительская селфи-палка</a></span>
-                                        <span>500 ₽</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="img/product-2.png" alt="Профессиональная селфи-палка "></a>
-                                    <div>
-                                        <span><a href="#">Профессиональная селфи-палка </a></span>
-                                        <span>1 500 ₽</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <ul>
-                                <li>
-                                    <a href="#"><img src="img/product-3.png" alt="Непотопляемая селфи-палка"></a>
-                                    <div>
-                                        <span><a href="#">Непотопляемая селфи-палка</a></span>
-                                        <span>2 500 ₽</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <figure><img src="img/new.svg" alt="Новый товар"></figure>
-                                    <a href="#"><img src="img/product-4.png" alt="Селфи-палка «Следуй за мной»"></a>
-                                    <div>
-                                        <span><a href="#">Селфи-палка «Следуй за мной»</a></span>
-                                        <span>4 900 ₽</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <button>Загрузить еще</button>
-                    <div>
+                <div class="products__catalog">
+                    <ul class="products__list">
+                        <li class="products__list-1">
+                            <figure class="visually-hidden">Новый товар</figure>
+                            <a href="#"><img src="img/product-1.png" alt="Любительская селфи-палка"></a>
+                            <div>
+                                <span><a href="#">Любительская селфи-палка</a></span>
+                                <span>500 ₽</span>
+                            </div>
+                            <div  class="visually-hidden">
+                                <button>Подробнее</button>
+                            </div>
+                        </li>
+                        <li class="products__list-2">
+                            <figure class="visually-hidden">Новый товар</figure>
+                            <a href="#"><img src="img/product-2.png" alt="Профессиональная селфи-палка "></a>
+                            <div>
+                                <span><a href="#">Профессиональная селфи-палка </a></span>
+                                <span>1 500 ₽</span>
+                            </div>
+                            <div  class="visually-hidden">
+                                <button>Подробнее</button>
+                            </div>
+                        </li>
+                        <li class="products__list-3">
+                            <figure class="visually-hidden">Новый товар</figure>
+                            <a href="#"><img src="img/product-3.png" alt="Непотопляемая селфи-палка"></a>
+                            <div>
+                                <span><a href="#">Непотопляемая селфи-палка</a></span>
+                                <span>2 500 ₽</span>
+                            </div>
+                            <div  class="visually-hidden">
+                                <button>Подробнее</button>
+                            </div>
+                        </li>
+                        <li class="products__list-4">
+                            <figure class="visually-hidden">Новый товар</figure>
+                            <a href="#"><img src="img/product-4.png" alt="Селфи-палка «Следуй за мной»"></a>
+                            <div>
+                                <span><a href="#">Селфи-палка «Следуй за мной»</a></span>
+                                <span>4 900 ₽</span>
+                            </div>
+                            <div  class="visually-hidden">
+                                <button>Подробнее</button>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="products__load-more">Загрузить еще</button>
+                    <div class="products__pages">
                         <button>назад</button>
                         <div>
                             <button>1</button>
@@ -150,6 +162,7 @@
                         <button>вперед</button>
                     </div>
                 </div>
+
             </div>
         </section>
     </main>
