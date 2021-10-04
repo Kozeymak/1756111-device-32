@@ -12,21 +12,21 @@
         <h1 class="visually-hidden">Device</h1>
         <img src="img/device.svg" alt="#">
         <div class="header__custom-menu">
-            <form action="#" class="header__search">
+            <form action="https://echo.htmlacademy.ru/" class="header__search">
                 <input type="search" placeholder="Поиск по сайту">
             </form>
             <ol class="header__option">
-                <li>Войти</li>
-                <li>Сравнить</li>
-                <li>Корзина</li>
+                <li><a href="#">Войти</a></li>
+                <li><a href="#">Сравнить</a></li>
+                <li><a href="#">Корзина</a></li>
             </ol>
         </div>
         <div>
             <button class="header__catalog">Каталог товаров</button>
             <ol class="header__navigation">
-                <li><nav>Доставка</nav></li>
-                <li><nav>Гарантия</nav></li>
-                <li><nav>Контакты</nav></li>
+                <nav><li><a href="#">Доставка</a></li></nav>
+                <nav><li><a href="#">Гарантия</a></li></nav>
+                <nav><li><a href="#">Контакты</a></li></nav>
             </ol>
         </div>
     </header>
@@ -68,16 +68,16 @@
                     </fieldset>
                     <fieldset class="options__color">
                         <legend>Цвет</legend>
-                        <label for="#"><input type="checkbox" checked><span>Черный</span></label>
-                        <label for="#"><input type="checkbox" checked><span>Белый</span></label>
-                        <label for="#"><input type="checkbox"><span>Синий</span></label>
-                        <label for="#"><input type="checkbox"><span>Красный</span></label>
-                        <label for="#"><input type="checkbox"><span>Розовый</span></label>
+                        <label><input type="checkbox" checked  for="options__color-1"><span id="options__color-1">Черный</span></label>
+                        <label><input type="checkbox" checked for="options__color-2"><span id="options__color-2">Белый</span></label>
+                        <label><input type="checkbox" for="options__color-3"><span id="options__color-3">Синий</span></label>
+                        <label><input type="checkbox" for="options__color-4"><span id="options__color-4">Красный</span></label>
+                        <label><input type="checkbox" for="options__color-5"><span id="options__color-5">Розовый</span></label>
                     </fieldset>
                     <fieldset class="options__blutooth">
                         <legend>Bluetooth</legend>
-                        <label for="radio"><input type="radio" checked name="radio">Да</label>
-                        <label for="radio"><input type="radio" name="radio">Нет</label>
+                        <label for="radio"><input type="radio" checked name="radio"><span>Да</span></label>
+                        <label for="radio"><input type="radio" name="radio"><span>Нет</span></label>
                     </fieldset>
                     <button class="options__button">Показать</button>
                 </form>
