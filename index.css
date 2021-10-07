@@ -1,3 +1,4 @@
+/*шрифты*/
 @font-face {
     font-family: "Raleway";
     font-style: normal;
@@ -28,13 +29,6 @@
     font-weight: 800;
     src: url(fonts/rubik/rubik-800.woff2) format("woff2");
     font-display: swap;
-}
-
-body{
-    font-family: "Rubik", Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    background-color: #FFFFFF;
 }
 
 .header__menu{
@@ -83,4 +77,49 @@ body{
 
 .footer__contacts ol{
     font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+/*хедер*/
+.header{
+    background-color: #FFE17F;
+}
+
+.header__option{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header__search{
+    border: none;
+    background-color: #FFE17F;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.header__catalog{
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    background-color: #FFE17F;
+}
+
+.header__navigation{
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase; 
+    list-style: none;
 }
