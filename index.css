@@ -95,9 +95,14 @@ body{
 .header__option{
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
     text-decoration: none;
     list-style: none;
+    font-style: normal;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+
 }
 
 .header__search{
@@ -105,21 +110,35 @@ body{
     background-color: #FFE17F;
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 .header__catalog{
     font-weight: 800;
-    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     border: none;
     background-color: #FFE17F;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-align: left;
 }
 
 .header__navigation{
     font-weight: 800;
-    text-align: center;
     text-decoration: none;
     text-transform: uppercase; 
     list-style: none;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-align: left;
 }
