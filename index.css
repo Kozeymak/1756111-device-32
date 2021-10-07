@@ -87,6 +87,11 @@ body{
     color: #000000;
 }
 
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
 /*хедер*/
 .header{
     background-color: #FFE17F;
@@ -140,5 +145,56 @@ body{
     font-style: normal;
     line-height: 21px;
     letter-spacing: 0.2em;
-    text-align: left;
 }
+
+/*слайдер*/
+
+.slider h3{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+}
+
+.slider p{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+.slider a{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #FFE17F;
+}
+
+.slider b{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+/*категории*/
+.categories__list{
+    list-style: none;
+}
+
+
+.categories__list a{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+/*сервисы*/
