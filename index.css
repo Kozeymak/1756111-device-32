@@ -32,4 +32,55 @@
 
 body{
     font-family: "Rubik", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    background-color: #E5E5E5;
+}
+
+.header__menu{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.slider h3{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.slider a{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.categories__list h3{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.services h2{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.services__list{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.delivery__description{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.contacts h2{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.contacts a{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.subscription h2{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.subscription button{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.footer__contacts ol{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
