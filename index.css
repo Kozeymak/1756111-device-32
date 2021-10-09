@@ -89,6 +89,9 @@ body{
 
 a{
     text-decoration: none;
+}
+
+.header a, main a{
     color: #000000;
 }
 
@@ -340,6 +343,12 @@ figure{
 .delivery__description{
     background-color: #F0F0F0;
     height: 100px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 23px;
+    letter-spacing: 0.2em;
+    text-align: center;
 }
 
 .delivery__button{
@@ -348,3 +357,175 @@ figure{
 }
 
 /*контакты*/
+
+.contacts h2{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-top: #000000 7px solid;
+}
+
+.contacts p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contacts__about-us a{
+    background-color: #FFE17F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+.contacts__number{
+    font-family: "Rubik", Arial, Helvetica, sans-serif !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.contacts h3{
+    color: #444444;
+}
+
+.contacts__write{
+    background-color: #FFE17F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
+/*подписка*/
+
+.subscription{
+    background-color: #F0F0F0;
+}
+
+.subscription h2{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.subscription p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.subscription__subscription{
+    border-bottom: 3px solid #000000;
+}
+
+
+.subscription__subscription input{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    background-color: #F0F0F0;
+}
+
+.subscription__subscription button{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    border: 3px solid #000000;
+}
+
+.subscription__check{
+    background-image: url(img/galka.svg);
+    width: 14px;
+    height: 14px;
+}
+
+/*футер*/
+
+.footer{
+    background-color: #444444;
+    color: #FFFFFF;
+}
+
+.footer p{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer span{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.footer__contacts ol, .footer__social-network ul{
+    list-style: none;
+}
+
+.footer__list a{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #ffffff !important;
+}
+
+.footer__stick{
+    background-color: #FFE17F;
+    width: 80px;
+    height: 7px;
+}
+
+.footer__link-1{
+    background-image: url(img/face.svg);
+    width: 40px;
+    height: 40px;
+}
+
+.footer__link-2{
+    background-image: url(img/inst.svg);
+    width: 40px;
+    height: 40px;
+}
+
+.footer__link-3{
+    background-image: url(img/twet.svg);
+    width: 40px;
+    height: 40px;
+}
