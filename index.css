@@ -92,6 +92,11 @@ a{
     color: #000000;
 }
 
+figure{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
 /*хедер*/
 .header{
     background-color: #FFE17F;
@@ -107,7 +112,38 @@ a{
     letter-spacing: 0em;
     text-align: left;
     color: black;
+}
 
+.header__option li{
+    display: flex;
+}
+
+.header__option-1{
+    background-image: url(img/person.svg);
+    width: 13px;
+    height: 12px;
+}
+
+.header__option-2{
+    background-image: url(img/compare.svg);
+    width: 10px;
+    height: 12px;
+}
+
+.header__option-3{
+    background-image: url(img/cart.svg);
+    width: 16px;
+    height: 14px;
+}
+
+.header__form{
+    display: flex;
+}
+
+.header__search-img{
+    background-image: url(img/search.svg);
+    width: 16px;
+    height: 16px;
 }
 
 .header__search{
@@ -120,7 +156,6 @@ a{
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 .header__catalog{
@@ -183,11 +218,15 @@ a{
     letter-spacing: 0em;
 }
 
+.slider__indicator button{
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+}
 /*категории*/
 .categories__list{
     list-style: none;
 }
-
 
 .categories__list a{
     font-size: 18px;
@@ -197,4 +236,115 @@ a{
     letter-spacing: -0.02em;
 }
 
+.categories__list-1{
+    width: 160px;
+    height: 160px;
+    background-color: #FFE17F;
+    background-image: url(img/vr.png);
+}
+.categories__list-2{
+    width: 160px;
+    height: 160px;
+    background-color: #FFE17F;
+    background-image: url(img/mp.png);
+}
+.categories__list-3{
+    width: 160px;
+    height: 160px;
+    background-color: #FFE17F;
+    background-image: url(img/ec.png);
+}
+.categories__list-4{
+    width: 160px;
+    height: 160px;
+    background-color: #FFE17F;
+    background-image: url(img/fb.png);
+}
+.categories__list-5{
+    width: 160px;
+    height: 160px;
+    background-color: #FFE17F;
+    background-image: url(img/yc.png);
+}
+.categories__list-6{
+    width: 160px;
+    height: 160px;
+    background-color: #FFE17F;
+    background-image: url(img/quardo.png);
+}
+
 /*сервисы*/
+
+.services{
+    background-color: #F0F0F0;;
+}
+.services__list ul{
+    list-style: none;
+    border-right: black 7px solid;
+    width: 280px;
+}
+
+.services__list ul li:nth-of-type(1){
+    color: #FFE17F;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    
+}
+
+.services__list ul li:nth-of-type(2), .services__list ul li:nth-of-type(3){
+    background-color: #FFE17F;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    
+}
+
+.services__img-1{
+    background-image: url(img/delivery\ 1.svg);
+    background-position: center;
+    width: 136px;
+    height: 166px;
+}
+
+.services__img-2{
+    background-image: url(img/garant.svg);
+    background-position: center;
+    width: 171px;
+    height: 195px;
+}
+
+.services__img-3{
+    background-image: url(img/credit.svg);
+    background-position: center;
+    width: 156px;
+    height: 188px;
+}
+
+/*доставка*/
+
+.delivery__img{
+    background-image: url(img/deliverycar.svg);
+    background-color: #FFE17F;
+    width: 125px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.delivery__description{
+    background-color: #F0F0F0;
+    height: 100px;
+}
+
+.delivery__button{
+    border-radius: 100%;
+    background-color: rgba(220, 220, 220, 0.5);
+}
+
+/*контакты*/

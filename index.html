@@ -11,13 +11,14 @@
         <h1 class="visually-hidden">Device</h1>
         <img src="img/device.svg" alt="#" width="145px" height="36px">
         <div class="header__custom-menu">
-            <form action="https://echo.htmlacademy.ru/">
+            <form action="https://echo.htmlacademy.ru/" class="header__form">
+                <figure class="header__search-img"></figure>
                 <input type="search" placeholder="Поиск по сайту" class="header__search">
             </form>
             <ol class="header__option">
-                <li><a href="#">Войти</a></li>
-                <li><a href="#">Сравнить</a></li>
-                <li><a href="#">Корзина</a></li>
+                <li><figure class="header__option-1"></figure><a href="#">Войти</a></li>
+                <li><figure class="header__option-2"></figure><a href="#">Сравнить</a></li>
+                <li><figure class="header__option-3"></figure><a href="#">Корзина</a></li>
             </ol>
         </div>
         <div class="header__menu">
@@ -117,12 +118,12 @@
         <!--Категории-->
         <section class="categories">
             <ul class="categories__list">
-                <li><h3><a href="">Виртуальная реальность</a></h3></li>
-                <li><h3><a href="">Моноподы для селфи</a></h3></li>
-                <li><h3><a href="">Экшн-камеры</a></h3></li>
-                <li><h3><a href="">Фитнес-браслеты</a></h3></li>
-                <li><h3><a href="">Умные часы</a></h3></li>
-                <li><h3><a href="">Квадрокоптеры</a></h3></li>
+                <li><figure class="categories__list-1"></figure><h3><a href="">Виртуальная реальность</a></h3></li>
+                <li><figure class="categories__list-2"></figure><h3><a href="">Моноподы для селфи</a></h3></li>
+                <li><figure class="categories__list-3"></figure><h3><a href="">Экшн-камеры</a></h3></li>
+                <li><figure class="categories__list-4"></figure><h3><a href="">Фитнес-браслеты</a></h3></li>
+                <li><figure class="categories__list-5"></figure><h3><a href="">Умные часы</a></h3></li>
+                <li><figure class="categories__list-6"></figure><h3><a href="">Квадрокоптеры</a></h3></li>
             </ul>
         </section>
 
@@ -130,9 +131,9 @@
         <section class="services">
             <section class="services__list">
                 <ul>
-                    <li><label for="radio"><input type="radio" checked name="radio">Доставка</label></li>
-                    <li><label for="radio"><input type="radio" name="radio">Гарантия</label></li>
-                    <li><label for="radio"><input type="radio" name="radio">Кредит</label></li>
+                    <li><input type="radio" checked name="radio" id="delivery"><label for="delivery">Доставка</label></li>
+                    <li><input type="radio" name="radio" id="guarantee"><label for="guarantee">Гарантия</label></li>
+                    <li><input type="radio" name="radio" id="credit"><label for="credit">Кредит</label></li>
                 </ul>
             </section>
 
@@ -142,29 +143,33 @@
                     Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
             </section>
 
-            <section class="services__description-2">
+            <section class="services__description-2 visually-hidden">
                 <h2>Гарантия</h2>
                 <p>Если из-за возгорания купленного у нас товара у вас
                     сгорит дом — не переживайте, мы выдадим вам новый.
                     Товар, не дом, конечно же.</p>
             </section>
 
-            <section class="services__description-3">
+            <section class="services__description-3 visually-hidden">
                 <h2>Кредит</h2>
                 <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут 
                     для вас наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
             </section>
 
             <section>
+                <figure class="services__img-1"></figure>
+                <figure class="services__img-2 visually-hidden"></figure>
+                <figure class="services__img-3 visually-hidden"></figure>
             </section>
         </section>
 
         <!--Доставка-->
         <section class="delivery">
-            <div class="delivery__img"></div>
+            <figure class="delivery__img"></figure>
             <div class="delivery__description">
                 <span>Доставим редкий товар под заказ</span>
             </div>
+            <button class="delivery__button">i</button>
         </section>
 
         <!--Контакты-->
