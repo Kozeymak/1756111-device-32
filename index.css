@@ -96,6 +96,18 @@
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
+.products__load-more {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.products__pages-back, .products__pages-forward {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.product__link{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
 body {
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -616,7 +628,7 @@ figure {
     border: 0;
 }
 
-.products__sorting select{
+.products__sorting select {
     background-color: #EBEBEB;
     border: 0;
     font-size: 16px;
@@ -624,4 +636,73 @@ figure {
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0;
+}
+
+.products__list{
+    list-style: none;
+}
+
+.product__name-product{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.02em;    
+}
+
+.product__price-product{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-align: right;
+}
+
+
+
+.product__link {
+    background-color: #FFE17F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    
+}
+
+.products__load-more {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #000;
+    text-transform: uppercase;
+}
+
+.products__pages {
+    background-color: #EBEBEB;
+}
+
+.products__pages-back, .products__pages-forward {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.product__page-numbers {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0;
+    text-align: center;
+    opacity: 0.3;
 }
