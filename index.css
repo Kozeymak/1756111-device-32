@@ -524,16 +524,19 @@ figure {
     background-image: url(img/face.svg);
     width: 40px;
     height: 40px;
+    display: block;
 }
 
 .footer__link-inst {
     background-image: url(img/inst.svg);
     width: 40px;
     height: 40px;
+    display: block;
 }
 
 .footer__link-twet {
     background-image: url(img/twet.svg);
     width: 40px;
     height: 40px;
+    display: block;
 }
