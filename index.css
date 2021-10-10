@@ -123,19 +123,19 @@ figure {
     display: flex;
 }
 
-.header__option-1 {
+.header__option-person {
     background-image: url(img/person.svg);
     width: 13px;
     height: 12px;
 }
 
-.header__option-2 {
+.header__option-compare {
     background-image: url(img/compare.svg);
     width: 10px;
     height: 12px;
 }
 
-.header__option-3 {
+.header__option-cart {
     background-image: url(img/cart.svg);
     width: 16px;
     height: 14px;
@@ -243,42 +243,42 @@ figure {
     letter-spacing: -0.02em;
 }
 
-.categories__list-1 {
+.categories__list-vr {
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
     background-image: url(img/vr.png);
 }
 
-.categories__list-2 {
+.categories__list-mp {
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
     background-image: url(img/mp.png);
 }
 
-.categories__list-3 {
+.categories__list-ec {
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
     background-image: url(img/ec.png);
 }
 
-.categories__list-4 {
+.categories__list-fb {
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
     background-image: url(img/fb.png);
 }
 
-.categories__list-5 {
+.categories__list-yc {
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
     background-image: url(img/yc.png);
 }
 
-.categories__list-6 {
+.categories__list-quardo {
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
@@ -316,21 +316,21 @@ figure {
     letter-spacing: 0.2em;
 }
 
-.services__img-1 {
+.services__img-delivery {
     background-image: url(img/delivery1.svg);
     background-position: center;
     width: 136px;
     height: 166px;
 }
 
-.services__img-2 {
+.services__img-garant {
     background-image: url(img/garant.svg);
     background-position: center;
     width: 171px;
     height: 195px;
 }
 
-.services__img-3 {
+.services__img-credit {
     background-image: url(img/credit.svg);
     background-position: center;
     width: 156px;
@@ -520,19 +520,19 @@ figure {
     height: 7px;
 }
 
-.footer__link-1 {
+.footer__link-face {
     background-image: url(img/face.svg);
     width: 40px;
     height: 40px;
 }
 
-.footer__link-2 {
+.footer__link-inst {
     background-image: url(img/inst.svg);
     width: 40px;
     height: 40px;
 }
 
-.footer__link-3 {
+.footer__link-twet {
     background-image: url(img/twet.svg);
     width: 40px;
     height: 40px;
