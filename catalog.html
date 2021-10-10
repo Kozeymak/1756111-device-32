@@ -13,13 +13,14 @@
         <h1 class="visually-hidden">Device</h1>
         <img src="img/device.svg" alt="#" width="145px" height="36px">
         <div class="header__custom-menu">
-            <form action="https://echo.htmlacademy.ru/" class="header__search">
-                <input type="search" placeholder="Поиск по сайту">
+            <form action="https://echo.htmlacademy.ru/" class="header__form">
+                <figure class="header__search-img"></figure>
+                <input type="search" placeholder="Поиск по сайту" class="header__search">
             </form>
             <ol class="header__option">
-                <li><a href="#">Войти</a></li>
-                <li><a href="#">Сравнить</a></li>
-                <li><a href="#">Корзина</a></li>
+                <li><div class="header__option-person"></div><a href="#">Войти</a></li>
+                <li><div class="header__option-compare"></div><a href="#">Сравнить</a></li>
+                <li><div class="header__option-cart"></div><a href="#">Корзина</a></li>
             </ol>
         </div>
         <div class="header__menu">
@@ -31,7 +32,7 @@
             </ol>
         </div>
     </header>
-    <main>
+    <main class="main">
 
         <!--Хлебные крошки-->
         <section class="crumbs">
@@ -177,24 +178,23 @@
         <div class="footer__contacts">
             <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
             <ol>
-                <li><a href="#">Доставка</a></li>
-                <li><a href="#">Гарантии</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li class="footer__list"><a href="#">Доставка</a></li>
+                <li class="footer__list"><a href="#">Гарантии</a></li>
+                <li class="footer__list"><a href="#">Контакты</a></li>
             </ol>
             <span>
                 Тел.: +7 (812) 812-12-12
             </span>
         </div>
         <div class="footer__social-network">
-            <figure></figure>
+            <figure class="footer__stick"></figure>
             <ul>
-                <li><a href="https://www.facebook.com/htmlacademy"></a></li>
-                <li><a href="https://www.instagram.com/htmlacademy/"></a></li>
-                <li><a href="https://twitter.com/htmlacademy_ru"></a></li>
+                <li><a href="https://www.facebook.com/htmlacademy" class="footer__link-face"></a></li>
+                <li><a href="https://www.instagram.com/htmlacademy/" class="footer__link-inst"></a></li>
+                <li><a href="https://twitter.com/htmlacademy_ru" class="footer__link-twet"></a></li>
             </ul>
             <figure><a href=" https://htmlacademy.ru/"><img src="img/htmlacad.svg" alt="HTML Academy"></a></figure>
         </div>
     </footer>
-</header>
-</body>
+    </body>
 </html>
