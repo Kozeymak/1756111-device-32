@@ -189,7 +189,7 @@ figure {
 
 /*слайдер*/
 
-.slider h3 {
+.slider__title {
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
@@ -197,14 +197,14 @@ figure {
     letter-spacing: 0;
 }
 
-.slider p {
+.slider__paragraph {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0;
 }
 
-.slider a {
+.slider__link {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -215,7 +215,7 @@ figure {
     background-color: #FFE17F;
 }
 
-.slider b {
+.slider__bold {
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
