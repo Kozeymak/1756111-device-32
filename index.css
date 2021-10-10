@@ -80,6 +80,22 @@
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
+.crumbs h1 {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.options__filters {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.options__button {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.products__sorting span {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
 body {
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -517,4 +533,95 @@ figure {
     width: 40px;
     height: 40px;
     display: block;
+}
+
+/*хлебные крошки*/
+
+.crumbs h1 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0;
+}
+
+.crumbs__list {
+    list-style: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0;
+    opacity: 0.6;    
+}
+
+.options__filters {
+    background-color: #DCDCDC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.options form {
+    background-color: #EBEBEB;
+}
+
+.options__filters legend {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+}
+
+.options__button {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    background-color: #FFE17F;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.products__sorting {
+    background-color: #EBEBEB;
+}
+
+.products__sorting span {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.product__vectord {
+    background-image: url(img/VectorD.svg);
+    width: 11px;
+    height: 10px;
+    border: 0;
+}
+
+.product__vectoru {
+    background-image: url(img/VectorU.svg);
+    width: 11px;
+    height: 10px;
+    border: 0;
+}
+
+.products__sorting select{
+    background-color: #EBEBEB;
+    border: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0;
 }
