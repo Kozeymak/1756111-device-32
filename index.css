@@ -115,8 +115,7 @@ figure {
     font-style: normal;
     line-height: 19px;
     letter-spacing: 0;
-    text-align: left;
-    color: black;
+    color: #000;
 }
 
 .header__option li {
@@ -160,7 +159,6 @@ figure {
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0;
-    text-align: left;
 }
 
 .header__catalog {
@@ -173,7 +171,6 @@ figure {
     font-style: normal;
     line-height: 21px;
     letter-spacing: 0.2em;
-    text-align: left;
 }
 
 .header__navigation {
@@ -243,45 +240,33 @@ figure {
     letter-spacing: -0.02em;
 }
 
-.categories__list-vr {
+.categories__list img {
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
+}
+
+.categories__list-vr {
     background-image: url(img/vr.png);
 }
 
 .categories__list-mp {
-    width: 160px;
-    height: 160px;
-    background-color: #FFE17F;
     background-image: url(img/mp.png);
 }
 
 .categories__list-ec {
-    width: 160px;
-    height: 160px;
-    background-color: #FFE17F;
     background-image: url(img/ec.png);
 }
 
 .categories__list-fb {
-    width: 160px;
-    height: 160px;
-    background-color: #FFE17F;
     background-image: url(img/fb.png);
 }
 
 .categories__list-yc {
-    width: 160px;
-    height: 160px;
-    background-color: #FFE17F;
     background-image: url(img/yc.png);
 }
 
 .categories__list-quardo {
-    width: 160px;
-    height: 160px;
-    background-color: #FFE17F;
     background-image: url(img/quardo.png);
 }
 
@@ -293,13 +278,13 @@ figure {
 
 .services__list ul {
     list-style: none;
-    border-right: black 7px solid;
+    border-right: #000 7px solid;
     width: 280px;
 }
 
 .services__list ul li:nth-of-type(1) {
     color: #FFE17F;
-    background-color: black;
+    background-color: #000;
     text-transform: uppercase;
     font-size: 18px;
     font-style: normal;
@@ -372,7 +357,6 @@ figure {
     font-weight: 800;
     line-height: 50px;
     letter-spacing: 0;
-    text-align: left;
     border-top: #000 7px solid;
 }
 
@@ -382,7 +366,6 @@ figure {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0;
-    text-align: left;
 }
 
 .contacts__about-us a {
@@ -402,7 +385,6 @@ figure {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0;
-    text-align: left;
 }
 
 .contacts h3 {
@@ -431,7 +413,6 @@ figure {
     font-weight: 800;
     line-height: 50px;
     letter-spacing: 0;
-    text-align: left;
 }
 
 .subscription p {
@@ -440,7 +421,6 @@ figure {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0;
-    text-align: left;
 }
 
 .subscription__subscription {
@@ -454,7 +434,6 @@ figure {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0;
-    text-align: left;
     border: none;
     background-color: #F0F0F0;
 }
@@ -488,7 +467,6 @@ figure {
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0;
-    text-align: left;
 }
 
 .footer span {
