@@ -31,55 +31,55 @@
     font-display: swap;
 }
 
-.header__menu{
+.header__menu {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-.slider h3{
+.slider h3 {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-.slider a{
+.slider a {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-.categories__list h3{
+.categories__list h3 {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-.services h2{
+.services h2 {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-.services__list{
+.services__list {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-.delivery__description{
+.delivery__description {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-.contacts h2{
+.contacts h2 {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-.contacts a{
+.contacts a {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-.subscription h2{
+.subscription h2 {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-.subscription button{
+.subscription button {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-.footer__contacts ol{
+.footer__contacts ol {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     font-family: "Rubik", Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 30px;
@@ -87,25 +87,25 @@ body{
     color: #000;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.header a, main a{
+.header a, main a {
     color: #000;
 }
 
-figure{
+figure {
     margin: 0 !important;
     padding: 0 !important;
 }
 
 /*хедер*/
-.header{
+.header {
     background-color: #FFE17F;
 }
 
-.header__option{
+.header__option {
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
@@ -117,39 +117,39 @@ figure{
     color: black;
 }
 
-.header__option li{
+.header__option li {
     display: flex;
 }
 
-.header__option-1{
+.header__option-1 {
     background-image: url(img/person.svg);
     width: 13px;
     height: 12px;
 }
 
-.header__option-2{
+.header__option-2 {
     background-image: url(img/compare.svg);
     width: 10px;
     height: 12px;
 }
 
-.header__option-3{
+.header__option-3 {
     background-image: url(img/cart.svg);
     width: 16px;
     height: 14px;
 }
 
-.header__form{
+.header__form {
     display: flex;
 }
 
-.header__search-img{
+.header__search-img {
     background-image: url(img/search.svg);
     width: 16px;
     height: 16px;
 }
 
-.header__search{
+.header__search {
     border: none;
     background-color: #FFE17F;
     font-family: "Rubik", Arial, Helvetica, sans-serif;
@@ -161,7 +161,7 @@ figure{
     text-align: left;
 }
 
-.header__catalog{
+.header__catalog {
     font-weight: 800;
     text-decoration: none;
     text-transform: uppercase;
@@ -174,7 +174,7 @@ figure{
     text-align: left;
 }
 
-.header__navigation{
+.header__navigation {
     font-weight: 800;
     text-decoration: none;
     text-transform: uppercase; 
@@ -187,7 +187,7 @@ figure{
 
 /*слайдер*/
 
-.slider h3{
+.slider h3 {
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
@@ -195,14 +195,14 @@ figure{
     letter-spacing: 0em;
 }
 
-.slider p{
+.slider p {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
 }
 
-.slider a{
+.slider a {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -213,7 +213,7 @@ figure{
     background-color: #FFE17F;
 }
 
-.slider b{
+.slider b {
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -221,17 +221,17 @@ figure{
     letter-spacing: 0em;
 }
 
-.slider__indicator button{
+.slider__indicator button {
     border-radius: 100%;
     width: 12px;
     height: 12px;
 }
 /*категории*/
-.categories__list{
+.categories__list {
     list-style: none;
 }
 
-.categories__list a{
+.categories__list a {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -239,37 +239,37 @@ figure{
     letter-spacing: -0.02em;
 }
 
-.categories__list-1{
+.categories__list-1 {
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
     background-image: url(img/vr.png);
 }
-.categories__list-2{
+.categories__list-2 {
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
     background-image: url(img/mp.png);
 }
-.categories__list-3{
+.categories__list-3 {
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
     background-image: url(img/ec.png);
 }
-.categories__list-4{
+.categories__list-4 {
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
     background-image: url(img/fb.png);
 }
-.categories__list-5{
+.categories__list-5 {
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
     background-image: url(img/yc.png);
 }
-.categories__list-6{
+.categories__list-6 {
     width: 160px;
     height: 160px;
     background-color: #FFE17F;
@@ -278,16 +278,16 @@ figure{
 
 /*сервисы*/
 
-.services{
+.services {
     background-color: #F0F0F0;;
 }
-.services__list ul{
+.services__list ul {
     list-style: none;
     border-right: black 7px solid;
     width: 280px;
 }
 
-.services__list ul li:nth-of-type(1){
+.services__list ul li:nth-of-type(1) {
     color: #FFE17F;
     background-color: black;
     text-transform: uppercase;
@@ -298,7 +298,7 @@ figure{
     
 }
 
-.services__list ul li:nth-of-type(2), .services__list ul li:nth-of-type(3){
+.services__list ul li:nth-of-type(2), .services__list ul li:nth-of-type(3) {
     background-color: #FFE17F;
     text-transform: uppercase;
     font-size: 18px;
@@ -308,21 +308,21 @@ figure{
     
 }
 
-.services__img-1{
+.services__img-1 {
     background-image: url(img/delivery\ 1.svg);
     background-position: center;
     width: 136px;
     height: 166px;
 }
 
-.services__img-2{
+.services__img-2 {
     background-image: url(img/garant.svg);
     background-position: center;
     width: 171px;
     height: 195px;
 }
 
-.services__img-3{
+.services__img-3 {
     background-image: url(img/credit.svg);
     background-position: center;
     width: 156px;
@@ -331,7 +331,7 @@ figure{
 
 /*доставка*/
 
-.delivery__img{
+.delivery__img {
     background-image: url(img/deliverycar.svg);
     background-color: #FFE17F;
     width: 125px;
@@ -340,7 +340,7 @@ figure{
     background-repeat: no-repeat;
 }
 
-.delivery__description{
+.delivery__description {
     background-color: #F0F0F0;
     height: 100px;
     font-size: 20px;
@@ -351,14 +351,14 @@ figure{
     text-align: center;
 }
 
-.delivery__button{
+.delivery__button {
     border-radius: 100%;
     background-color: rgba(220, 220, 220, 0.5);
 }
 
 /*контакты*/
 
-.contacts h2{
+.contacts h2 {
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
@@ -368,7 +368,7 @@ figure{
     border-top: #000 7px solid;
 }
 
-.contacts p{
+.contacts p {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -377,7 +377,7 @@ figure{
     text-align: left;
 }
 
-.contacts__about-us a{
+.contacts__about-us a {
     background-color: #FFE17F;
     font-size: 18px;
     font-style: normal;
@@ -387,7 +387,7 @@ figure{
     text-align: center;
 }
 
-.contacts__number{
+.contacts__number {
     font-family: "Rubik", Arial, Helvetica, sans-serif !important;
     font-size: 18px;
     font-style: normal;
@@ -397,11 +397,11 @@ figure{
     text-align: left;
 }
 
-.contacts h3{
-    color: #444444;
+.contacts h3 {
+    color: #444;
 }
 
-.contacts__write{
+.contacts__write {
     background-color: #FFE17F;
     font-size: 18px;
     font-style: normal;
@@ -413,11 +413,11 @@ figure{
 
 /*подписка*/
 
-.subscription{
+.subscription {
     background-color: #F0F0F0;
 }
 
-.subscription h2{
+.subscription h2 {
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
@@ -426,7 +426,7 @@ figure{
     text-align: left;
 }
 
-.subscription p{
+.subscription p {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -435,12 +435,12 @@ figure{
     text-align: left;
 }
 
-.subscription__subscription{
+.subscription__subscription {
     border-bottom: 3px solid #000;
 }
 
 
-.subscription__subscription input{
+.subscription__subscription input {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -451,7 +451,7 @@ figure{
     background-color: #F0F0F0;
 }
 
-.subscription__subscription button{
+.subscription__subscription button {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -461,7 +461,7 @@ figure{
     border: 3px solid #000;
 }
 
-.subscription__check{
+.subscription__check {
     background-image: url(img/check.svg);
     width: 14px;
     height: 14px;
@@ -469,12 +469,12 @@ figure{
 
 /*футер*/
 
-.footer{
+.footer {
     background-color: #444;
     color: #FFF;
 }
 
-.footer p{
+.footer p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -483,7 +483,7 @@ figure{
     text-align: left;
 }
 
-.footer span{
+.footer span {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -492,11 +492,11 @@ figure{
     text-align: right;
 }
 
-.footer__contacts ol, .footer__social-network ul{
+.footer__contacts ol, .footer__social-network ul {
     list-style: none;
 }
 
-.footer__list a{
+.footer__list a {
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -506,25 +506,25 @@ figure{
     color: #fff !important;
 }
 
-.footer__stick{
+.footer__stick {
     background-color: #FFE17F;
     width: 80px;
     height: 7px;
 }
 
-.footer__link-1{
+.footer__link-1 {
     background-image: url(img/face.svg);
     width: 40px;
     height: 40px;
 }
 
-.footer__link-2{
+.footer__link-2 {
     background-image: url(img/inst.svg);
     width: 40px;
     height: 40px;
 }
 
-.footer__link-3{
+.footer__link-3 {
     background-image: url(img/twet.svg);
     width: 40px;
     height: 40px;
