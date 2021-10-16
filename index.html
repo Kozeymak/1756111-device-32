@@ -7,9 +7,9 @@
     </head>
     <body>
     <!--Хедер-->
+    <img src="img/device.svg" alt="#" width="145px" height="36px" class="header__logo">
     <header class="header">
         <h1 class="visually-hidden">Device</h1>
-        <img src="img/device.svg" alt="#" width="145px" height="36px">
         <div class="header__custom-menu">
             <form action="https://echo.htmlacademy.ru/" class="header__form">
                 <figure class="header__search-img"></figure>
@@ -35,6 +35,9 @@
         <!--Слайдер-->
         <section class="slider">
             <section class="slider__pictures">
+                <div class="slider__back"><img src="img/01.svg" alt="Первый слайд" class="slider__number"></div>
+                <div  class="slider__back visually-hidden"><img src="img/02.svg" alt="Первый слайд" class="slider__number"></div>
+                <div  class="slider__back visually-hidden"><img src="img/03.svg" alt="Первый слайд" class="slider__number"></div>
                 <button class="slider__left"></button>
                 <img src="img/slider-1.png" alt="Квадрокоптер" class="slider__img-1" width="560px" height="560px">
                 <img src="img/slider-2.png" alt="Браслет" class="slider__img-2 visually-hidden" width="560px" height="560px">
@@ -56,12 +59,12 @@
                 </div>
                 <div class="slider__specification-1">
                     <div>
-                        <b class="slider__bold">800 м</b>
-                        <span>Дальность полета</span>
+                        <p class="slider__bold">800 м</p>
+                        <p>Дальность полета</p>
                     </div>
                     <div>
-                        <b class="slider__bold">50 м</b>
-                        <span>Радиус поражения</span>
+                        <p class="slider__bold">50 м</p>
+                        <p>Радиус поражения</p>
                     </div>
                 </div>
             </section>
@@ -80,8 +83,8 @@
                 </div>
                 <div class="slider__specification-2">
                     <div>
-                        <b class="slider__bold">48 часов</b>
-                        <span>Без подзарядки</span>
+                        <p class="slider__bold">48 часов</p>
+                        <p>Без подзарядки</p>
                     </div>
                 </div>
             </section>
@@ -100,16 +103,16 @@
                 </div>
                 <div class="slider__specification-3">
                     <div>
-                        <b class="slider__bold">8,5 м</b>
-                        <span>Длина палки</span>
+                        <p class="slider__bold">8,5 м</p>
+                        <p>Длина палки</p>
                     </div>
                     <div>
-                        <b class="slider__bold">5 кг</b>
-                        <span>Вес палки</span>
+                        <p class="slider__bold">5 кг</p>
+                        <p>Вес палки</p>
                     </div>
                     <div>
-                        <b class="slider__bold">Карбон</b>
-                        <span>Материал</span>
+                        <p class="slider__bold">Карбон</p>
+                        <p>Материал</p>
                     </div>
                 </div>
             </section>
@@ -131,9 +134,24 @@
         <section class="services">
             <section class="services__list">
                 <ul>
-                    <li><input type="radio" checked name="radio" id="delivery"><label for="delivery">Доставка</label></li>
-                    <li><input type="radio" name="radio" id="guarantee"><label for="guarantee">Гарантия</label></li>
-                    <li><input type="radio" name="radio" id="credit"><label for="credit">Кредит</label></li>
+                    <li>
+                        <label for="delivery">
+                            <input type="radio" checked name="radio" id="delivery">
+                            Доставка
+                        </label>
+                    </li>
+                    <li>
+                        <label for="guarantee">
+                            <input type="radio" name="radio" id="guarantee">
+                            Гарантия
+                        </label>
+                    </li>
+                    <li>
+                        <label for="credit">
+                            <input type="radio" name="radio" id="credit">
+                            Кредит
+                        </label>
+                    </li>
                 </ul>
             </section>
 
@@ -167,7 +185,7 @@
         <section class="delivery">
             <figure class="delivery__img"></figure>
             <div class="delivery__description">
-                <span>Доставим редкий товар под заказ</span>
+                <p>Доставим редкий товар под заказ</p>
             </div>
             <button class="delivery__button">i</button>
         </section>
@@ -179,9 +197,9 @@
                 <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
                 <p>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
                 <ul>
-                    <li><b>Меловые линии</b></li>
-                    <li><b>СДИК</b></li>
-                    <li><b>ТоксБерри</b></li>
+                    <li>Меловые линии</li>
+                    <li>СДИК</li>
+                    <li>ТоксБерри</li>
                 </ul>
                 <a href="#">Подробнее о нас</a>
             </section>
@@ -211,7 +229,7 @@
                 </form>
                 <div>
                     <figure class="subscription__check"></figure>
-                    <span>Это бесплатно</span>
+                    <p>Это бесплатно</p>
                 </div>
             </div>
         </section>
@@ -219,7 +237,7 @@
 
     <!--Футер-->
     <footer class="footer">
-        <div>
+        <div class="footer__img">
             <img src="img/logoyellow.svg" alt="Девайс" width="145px" height="36px">
         </div>
         <div class="footer__contacts">
@@ -229,9 +247,9 @@
                 <li class="footer__list"><a href="#">Гарантии</a></li>
                 <li class="footer__list"><a href="#">Контакты</a></li>
             </ol>
-            <span>
+            <a>
                 Тел.: +7 (812) 812-12-12
-            </span>
+            </a>
         </div>
         <div class="footer__social-network">
             <figure class="footer__stick"></figure>
@@ -240,7 +258,7 @@
                 <li><a href="https://www.instagram.com/htmlacademy/" class="footer__link-inst"></a></li>
                 <li><a href="https://twitter.com/htmlacademy_ru" class="footer__link-twet"></a></li>
             </ul>
-            <figure><a href=" https://htmlacademy.ru/"><img src="img/htmlacad.svg" alt="HTML Academy"></a></figure>
+            <a href=" https://htmlacademy.ru/"><img src="img/htmlacad.svg" alt="HTML Academy"></a>
         </div>
     </footer>
     </body>
