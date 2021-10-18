@@ -672,7 +672,15 @@ ul, ol {
 /*подписка*/
 
 .subscription {
+    margin-top: 87px;
     background-color: #F0F0F0;
+    height: 421px;
+    display: flex;
+}
+
+.subscription__box {
+    width: 1160px;
+    margin: 0 auto;
 }
 
 .subscription h2 {
@@ -681,6 +689,10 @@ ul, ol {
     font-weight: 800;
     line-height: 50px;
     letter-spacing: 0;
+    width: 560px;
+    height: 120px;
+    margin-top: 70px;
+    margin-bottom: 40px;
 }
 
 .subscription p {
@@ -689,12 +701,28 @@ ul, ol {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0;
+    width: 560px;
+    height: 99px;
+    word-wrap: break-word;
+    margin-top: 86px;
+    margin-bottom: 50px;
+}
+
+.subscription__description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .subscription__subscription {
-    border-bottom: 3px solid #000;
+    width: 861px;
+    display: flex;
 }
 
+.subscription__form-and-button {
+    display: flex;
+    justify-content: space-between;
+}
 
 .subscription__subscription input {
     font-size: 18px;
@@ -704,6 +732,8 @@ ul, ol {
     letter-spacing: 0;
     border: none;
     background-color: #F0F0F0;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+    width: 601px;
 }
 
 .subscription__subscription button {
@@ -713,13 +743,27 @@ ul, ol {
     line-height: 21px;
     letter-spacing: 0.2em;
     text-align: center;
-    border: 3px solid #000;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    width: 260px;
+    height: 55px;
 }
 
 .subscription__check {
     background-image: url(img/check.svg);
     width: 14px;
     height: 14px;
+}
+
+.subscription__box-free {
+    display: flex;
+    align-items: center;
+}
+
+.subscription__box-free p {
+    width: 129px;
+    height: 30px;
+    margin: 0;
+    padding-left: 21px;
 }
 
 /*футер*/
