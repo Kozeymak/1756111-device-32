@@ -454,13 +454,21 @@ ul, ol {
 /*сервисы*/
 
 .services {
-    background-color: #F0F0F0;;
+    background-color: #F0F0F0;
+    display: flex;
+    width: 1160px;
+    margin: 69px auto 0 auto;
+}
+
+.services .visually-hidden {
+    display: none;
 }
 
 .services__list ul {
     list-style: none;
     border-right: #000 7px solid;
     width: 280px;
+    height: 319px;
 }
 
 .services__list ul li {
@@ -501,6 +509,25 @@ ul, ol {
     background-position: center;
     width: 156px;
     height: 188px;
+}
+
+.services__description {
+    padding-left: 116px;
+}
+
+.services__description h2 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px;
+    height: 70px;
+    margin: 0 0 14px 0;
+}
+
+.services__description p {
+    width: 500px;
+    height: 165px;
+    margin: 0;
 }
 
 /*доставка*/
@@ -833,12 +860,18 @@ ul, ol {
 
 /*хлебные крошки*/
 
+.crumbs {
+    margin-top: 37px;
+}
+
 .crumbs h1 {
     font-size: 50px;
     font-style: normal;
     font-weight: 800;
     line-height: 50px;
     letter-spacing: 0;
+    margin: 0 680px 14px 200px;
+    height: 60px;
 }
 
 .crumbs__list {
@@ -848,7 +881,13 @@ ul, ol {
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0;
-    opacity: 0.6;    
+    opacity: 0.6; 
+    margin: 14px auto 0 200px;
+    display: flex;
+}
+
+.crumbs__list li {
+    padding-right: 36px;
 }
 
 .options__filters {
@@ -859,6 +898,12 @@ ul, ol {
     line-height: 19px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+}
+
+/*Подбор товара*/
+
+.catalog {
+    padding-top: 49px;
 }
 
 .options form {
