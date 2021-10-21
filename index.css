@@ -798,6 +798,7 @@ ul, ol {
 .footer {
     background-color: #444;
     color: #FFF;
+    padding: 0 140px;
 }
 
 .footer p {
@@ -817,8 +818,47 @@ ul, ol {
     text-align: right;
 }
 
+.footer__contacts {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__contacts p {
+    width: 240px;
+    height: 38px;
+    margin: 0;
+}
+
+.footer__contacts ol {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.footer__contacts li {
+    width: 148px;
+}
+
 .footer__contacts ol, .footer__social-network ul {
     list-style: none;
+}
+
+.footer__social-network {
+    padding-top: 49px;
+    padding-bottom: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__social-network ul {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
 }
 
 .footer__list a {
