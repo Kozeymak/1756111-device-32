@@ -145,18 +145,23 @@ ul, ol {
     padding: 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /*хедер*/
 
 .header__logo {
     display: block;
     margin: 17px auto -13.5px 201px;
     z-index: 1;
-}
-
-.header .visually-hidden{
-    display: none;
-    padding: 0;
-    margin: 0;
 }
 
 .header {
@@ -266,9 +271,6 @@ ul, ol {
     display: flex;
 }
 
-.slider .visually-hidden{
-    display: none;
-}
 
 .slider__pictures {
     width: 560px;
@@ -458,10 +460,6 @@ ul, ol {
     display: flex;
     width: 1160px;
     margin: 69px auto 0 auto;
-}
-
-.services .visually-hidden {
-    display: none;
 }
 
 .services__list ul {
