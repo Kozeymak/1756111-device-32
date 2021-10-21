@@ -160,14 +160,14 @@ ul, ol {
 
 .header__logo {
     display: block;
-    margin: 17px auto -13.5px 201px;
+    margin: 17px auto -13px 201px;
     z-index: 1;
 }
 
 .header {
     background-color: #FFE17F;
     width: 1160px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
@@ -459,7 +459,7 @@ ul, ol {
     background-color: #F0F0F0;
     display: flex;
     width: 1160px;
-    margin: 69px auto 0 auto;
+    margin: 69px auto 0;
 }
 
 .services__list ul {
@@ -478,7 +478,7 @@ ul, ol {
     letter-spacing: 0.2em;
 }
 
-.services__list ul li label input[type="radio"]:checked {
+.services__list input[type="radio"]:checked {
     color: #FFE17F;
     background-color: #000;
     text-transform: uppercase;
