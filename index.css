@@ -521,6 +521,9 @@ ul, ol {
 .services {
     background-color: #F0F0F0;
     display: flex;
+    width: 1094px;
+    padding: 0 auto 0 auto;
+    margin: 0;
 }
 
 .services__list ul {
@@ -1011,15 +1014,24 @@ ul, ol {
 }
 
 .options {
-    width: 489px;
+    width: 468px;
 }
 
 .products {
-    width: 982px;
+    width: 972px;
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
 }
 
 .options form {
     background-color: #EBEBEB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 69px;
 }
 
 .options__filters {
@@ -1049,6 +1061,8 @@ ul, ol {
     background-color: #FFE17F;
     border: 0;
     text-transform: uppercase;
+    padding: 0;
+    margin: 0;
 }
 
 .products__sorting {
@@ -1102,6 +1116,17 @@ ul, ol {
 
 .products__list{
     list-style: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products__list li {
+    margin: 44px 10px 0 10px;
+}
+
+.products__catalog {
+    padding: 25px 130px 0 62px;
 }
 
 .product__name-product{
@@ -1144,10 +1169,20 @@ ul, ol {
     background-color: #fff;
     border: 3px solid #000;
     text-transform: uppercase;
+    width: 760px;
+    height: 55px;
+    padding: 0;
+    margin-top: 44px;
+    margin-bottom: 51px;
 }
 
 .products__pages {
     background-color: #EBEBEB;
+    display: flex;
+    width: 760px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .products__pages-back, .products__pages-forward {
@@ -1157,6 +1192,7 @@ ul, ol {
     line-height: 19px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+    padding: 0 30px;
 }
 
 .product__page-numbers {
@@ -1165,6 +1201,9 @@ ul, ol {
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 0;
-    text-align: center;
     opacity: 0.3;
+    width: 169px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
