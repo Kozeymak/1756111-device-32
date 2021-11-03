@@ -410,7 +410,7 @@ ul, ol {
     letter-spacing: 0.2em;
     text-align: center;
     text-transform: uppercase;
-    background-color: #FFE17F;
+    background: linear-gradient(to bottom, #fff 0px 7px, #FFE17F 7px 15px, #fff 15px 20px);
 }
 
 .slider__bold {
@@ -521,35 +521,54 @@ ul, ol {
 .services {
     background-color: #F0F0F0;
     display: flex;
-    width: 1094px;
-    padding: 0 auto 0 auto;
-    margin: 0;
+    width: 1114px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.services__slide {
+    margin-top: auto;
+    width: 830px;
+    height: 260px;
+    display: flex;
 }
 
 .services__list ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     list-style: none;
-    border-right: #000 7px solid;
     width: 280px;
     height: 319px;
+    margin: 0;
 }
 
-.services__list ul li {
-    background-color: #FFE17F;
+.services__list li {
+    background: linear-gradient(to bottom, #F0F0F0 0px 7px, #FFE17F 7px 15px, #F0F0F0 15px 20px);
     text-transform: uppercase;
     font-size: 18px;
     font-style: normal;
     line-height: 21px;
     letter-spacing: 0.2em;
+    width: 160px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 35px;
 }
 
-.services__list input[type="radio"]:checked {
-    color: #FFE17F;
-    background-color: #000;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-style: normal;
-    line-height: 21px;
-    letter-spacing: 0.2em;
+.services__list {
+    border-right: #000 7px solid;
+    height: 320px;
+}
+
+.services__list input{
+    display: none;
+}
+
+.services__img {
+    display: flex;
+    margin-left: auto;
+    margin-bottom: auto;
 }
 
 .services__img-delivery {
@@ -575,6 +594,9 @@ ul, ol {
 
 .services__description {
     padding-left: 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .services__description h2 {
@@ -701,7 +723,7 @@ ul, ol {
 }
 
 .contacts h2 {
-    padding-top: 42px;
+    margin-top: 42px;
     margin-top: 0px;
     margin-bottom: 0;
     font-size: 50px;
@@ -709,8 +731,16 @@ ul, ol {
     font-weight: 800;
     line-height: 50px;
     letter-spacing: 0;
-    border-top: #000 7px solid;
-    height: 70px;
+    height: 112px;
+}
+
+.contacts h2::before {
+    content: "";
+    display: block;
+    background: #000;
+    width: 80px;
+    height: 7px;
+    margin-bottom: 42px;
 }
 
 .contacts p {
@@ -722,7 +752,7 @@ ul, ol {
 }
 
 .contacts__about-us a {
-    background-color: #FFE17F;
+    background: linear-gradient(to bottom, #fff 0px 7px, #FFE17F 7px 15px, #fff 15px 20px);
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
@@ -748,7 +778,7 @@ ul, ol {
 }
 
 .contacts__write {
-    background-color: #FFE17F;
+    background: linear-gradient(to bottom, #fff 0px 7px, #FFE17F 7px 15px, #fff 15px 20px);
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
