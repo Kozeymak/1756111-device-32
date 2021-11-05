@@ -460,13 +460,14 @@ ul, ol {
 
 .categories {
     width: 1160px;
-    margin: 70px auto 69px auto;
+    margin: 70px auto;
 }
 
 .categories__list {
     list-style: none;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(6, 160px);
+    gap: 40px;
     margin-top: 0;
     margin-bottom: 0;
 }
