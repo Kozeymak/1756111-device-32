@@ -1514,3 +1514,62 @@ fieldset {
     border:0;
     background: linear-gradient(to bottom, #fff 0px 7px, #FFE17F 7px 15px, #fff 15px 20px);
 }
+
+.popover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 320px;
+    height: 302px;
+    background-color: black;
+    color: #fff;
+}
+
+.popover__items {
+    display: flex;
+    flex-direction: column;
+}
+
+.popover__item {
+    display: flex;
+    height: 84px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    height: 43px;
+}
+
+.popover__item a{
+    display: block;
+    color: #fff;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    width: 244px;    
+}
+
+.popover__noob a::before{
+    content: "";
+    width: 41px;
+    height: 43px;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(img/product-1.png);
+    margin-right: 23px;
+}
+
+.popover__item button{
+    background-image: url(img/crossw.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 11px;
+    height: 11px;
+    border:0;
+    background-color: #000;
+}
