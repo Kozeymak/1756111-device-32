@@ -24,24 +24,32 @@
                 </li>
                 <li><a href="#" class="header__option-compare">Сравнить</a></li>
                 <li><a href="#" class="header__option-cart">Корзина</a>
+                    <div class="items-in-cart">2</div>
 
                     <div class="popover">
-                        <div class="popover__items">
-                            <div class="popover__item popover__noob">
-                                <a href="#">Любительская селфи-палка</a>
-                                <button></button>
+                        <div class="popover__triangle"></div>
+                        <div class="popover__content">
+                            <div class="popover__items">
+                                <div class="popover__item">
+                                    <a href="#">
+                                        <img src="img/product-1.png" alt="Любительская селфи-палка" width="41px" height="43px">
+                                        <p>Любительская селфи-палка</p>
+                                    </a>
+                                    <button></button>
+                                </div>
+                                <div class="popover__item">
+                                    <a href="#">
+                                        <img src="img/product-2.png" alt="Профессиональная селфи-палка" width="41px" height="43px">
+                                        <p>Профессиональная селфи-палка</p>
+                                    </a>
+                                    <button></button>
+                                </div>
                             </div>
-                            <div class="popover__item popover__skil">
-                                <a href="#">Профессиональная селфи-палка</a>
-                                <button></button>
+                            <div class="popover__summ">
+                                <p>Товаров: 2</p>
+                                <p>Сумма: 2000 ₽</p>
                             </div>
-                        </div>
-                        <div class="popover__summ">
-                            <p>Товаров: 2</p>
-                            <p>Сумма: 2000 ₽</p>
-                        </div>
-                        <div class="popover__box-button">
-                            <button class="popover__button"></button>
+                            <button class="popover__button">Открыть корзину</button>
                         </div>
                     </div>
                 </li>
@@ -334,7 +342,7 @@
         </div>
     </footer>
 
-    <div class="modal visually-hidden">
+    <div class="modal">
         <div class="modal__auth">
             <section class="modal__header">
                 <h2>Доставка под заказ</h2>
@@ -345,12 +353,18 @@
                 <div class="modal__name-and-email">
                     <div class="modal__name">
                         <label for="modal-form-name">Ваше имя:</label>
-                        <input type="text" placeholder="Имя Фамилия" id="modal-form-name">
+                        <div>
+                            <input type="text" placeholder="Имя Фамилия" id="modal-form-name">
+                            <div class="modal__img-name"></div>
+                        </div>
                         <p>Пожалуйста, представьтесь</p>
                     </div>
                     <div class="modal__email">
                         <label for="modal-form-email">Ваш e-mail:</label>
-                        <input type="email" placeholder="mail@mail.com" id="modal-form-email">
+                        <div>
+                            <input type="email" placeholder="mail@mail.com" id="modal-form-email">
+                            <div class="modal__img-email"></div>
+                        </div>
                         <p>Забавный у вас адрес</p>
                     </div>
                 </div>
@@ -367,7 +381,7 @@
                         <div class="modal__quantily">
                             <span class="visually-hidden">минус</span>
                             <button class="modal__quantily-minus">-</button>
-                            <input type="number" id="quantily">
+                            <input type="number" id="quantily" placeholder="1">
                             <span class="visually-hidden">плюс</span>
                             <button class="modal__quantily-plus">+</button>
                         </div>

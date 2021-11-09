@@ -227,6 +227,7 @@ ul, ol {
     background-size: cover;
     height: 14px;
     width: 16px;
+    padding-left:;
     margin-right: 10px;
     display: inline-block;
     vertical-align: middle;
@@ -234,6 +235,14 @@ ul, ol {
 
 .header__option-compare, .header__option-cart {
     width: 120px;
+}
+
+.header__option-compare {
+    padding-left: 15px;
+}
+
+.header__option-cart {
+    padding-left: 29px;
 }
 
 .header__option-compare::before {
@@ -256,6 +265,18 @@ ul, ol {
     margin-right: 10px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.items-in-cart {
+    position: absolute;
+    z-index: 1;
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
+    background-color: #FFF;
+    text-align: center;
+    top: 88px;
+    right: 281px;
 }
 
 .header__form {
@@ -1275,6 +1296,7 @@ fieldset {
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.8);
+        display: none;
 }
 
 .modal__auth {
@@ -1331,16 +1353,33 @@ fieldset {
     height: 34px;   
 }
 
+.modal__name div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
 .modal__name input {
     height: 60px;
     background-color: #F0F0F0;
     border: 0;
-    padding-left: 20px;
+    padding: 0 0 0 20px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0;
+    width: 290px;
+}
+
+.modal__img-name {
+    width: 50px;
+    height: 60px;
+    background-color: #F0F0F0;
+    background-image: url(img/personW.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .modal__name p{
@@ -1369,16 +1408,33 @@ fieldset {
     height: 34px;   
 }
 
+.modal__email div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
 .modal__email input {
     height: 60px;
     background-color: #F0F0F0;
     border: 0;
-    padding-left: 20px;
+    padding: 0 0 0 20px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0;
+    width: 290px;
+}
+
+.modal__img-email {
+    width: 50px;
+    height: 60px;
+    background-color: #F0F0F0;
+    background-image: url(img/letterW.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .modal__email p{
@@ -1517,14 +1573,31 @@ fieldset {
 
 .popover {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 115px;
+    right: 117px;
     z-index: 1;
     box-sizing: border-box;
     width: 320px;
-    height: 302px;
-    background-color: black;
+    height: 308px;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+        display: none;
+}
+
+.popover__content {
+    background-color: #000;
+    box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.popover__triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 6px 7px;
+    border-color: transparent transparent #000000 transparent;
+    margin: 0 auto;
 }
 
 .popover__items {
@@ -1534,46 +1607,29 @@ fieldset {
 
 .popover__item {
     display: flex;
-    height: 84px;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
-    height: 43px;
+    padding: 20px 20px;
 }
 
-.popover__item a{
-    display: block;
+.popover__item a {
     color: #fff;
-    font-family: Rubik;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0;
-    width: 244px;    
+    display: flex;
 }
 
-.popover__noob a::before{
-    content: "";
-    width: 41px;
+.popover__item p {
+    margin: 0;
+    width: 180px;
     height: 43px;
-    background-size: cover;
-    display: inline-block;
-    vertical-align: middle;
-    background-image: url(img/product-1.png);
-    margin-right: 23px;
+    padding-left: 20px;
 }
 
-.popover__skil a::before{
-    content: "";
-    width: 41px;
-    height: 43px;
-    background-size: cover;
-    display: inline-block;
-    vertical-align: middle;
-    background-image: url(img/product-2.png);
-    margin-right: 23px;
+.popover__item + .popover__item {
+    margin-top: 0px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 
 .popover__item button{
     background-image: url(img/crossw.svg);
@@ -1583,10 +1639,6 @@ fieldset {
     height: 11px;
     border:0;
     background-color: #000;
-}
-
-.popover__item + .popover__item {
-    border-top: 1px solid #FFFFFF;
 }
 
 .popover__summ {
@@ -1603,4 +1655,25 @@ fieldset {
     line-height: 20px;
     letter-spacing: 0;
     
+}
+
+.popover__box-button {
+    background-color: #000;
+}
+
+.popover__button {
+    width: 280px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    background-color: #fff;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;    
+    padding: 0;
 }
