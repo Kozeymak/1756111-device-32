@@ -1564,6 +1564,17 @@ fieldset {
     margin-right: 23px;
 }
 
+.popover__skil a::before{
+    content: "";
+    width: 41px;
+    height: 43px;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(img/product-2.png);
+    margin-right: 23px;
+}
+
 .popover__item button{
     background-image: url(img/crossw.svg);
     background-repeat: no-repeat;
@@ -1572,4 +1583,24 @@ fieldset {
     height: 11px;
     border:0;
     background-color: #000;
+}
+
+.popover__item + .popover__item {
+    border-top: 1px solid #FFFFFF;
+}
+
+.popover__summ {
+    background-color: #1A1A1A;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    
 }
