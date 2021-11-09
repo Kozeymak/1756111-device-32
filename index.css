@@ -181,7 +181,7 @@ ul, ol {
     width: 1075px;
     margin: 48px 25px 0 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .header__menu {
@@ -227,7 +227,6 @@ ul, ol {
     background-size: cover;
     height: 14px;
     width: 16px;
-    padding-left:;
     margin-right: 10px;
     display: inline-block;
     vertical-align: middle;
@@ -238,11 +237,11 @@ ul, ol {
 }
 
 .header__option-compare {
-    padding-left: 15px;
+    margin-left: 15px;
 }
 
 .header__option-cart {
-    padding-left: 29px;
+    margin-left: 29px;
 }
 
 .header__option-compare::before {
@@ -277,6 +276,12 @@ ul, ol {
     text-align: center;
     top: 88px;
     right: 281px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;  
+    vertical-align: middle; 
 }
 
 .header__form {
