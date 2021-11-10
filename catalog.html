@@ -61,20 +61,28 @@
                 <form action="#" class="options__catalog">
                     <fieldset class="options__price">
                         <legend>Стоимость</legend>
-
-
-                        <button type="button">
-                            <span class="visually-hidden">Изменить минимальную цену.</span>
-                        </button>
-                        <button type="button">
-                            <span class="visually-hidden">Изменить максимальную цену.</span>
-                        </button>
-                        <label>
-                            от <input type="number" name="min-price" value="0"> ₽
-                        </label>
-                        <label>
-                            до <input type="number" name="max-price" value="5000"> ₽
-                        </label>
+                        
+                        <div class="otions__range">
+                            <div class="otions__scale">
+                                <div class="options__radius">
+                                    <button type="button" class="options__radius-min">
+                                        <span class="visually-hidden">Изменить минимальную цену.</span>
+                                    </button>
+                                    <button type="button" class="options__radius-max">
+                                        <span class="visually-hidden">Изменить максимальную цену.</span>
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="options__wrapper">
+                                <label>
+                                    от<input type="number" name="min-price" value="0">
+                                </label>
+                                <label>
+                                    до<input type="number" name="max-price" value="5000">
+                                </label>
+                            </div>
+                        </div>
                     </fieldset>
 
 
@@ -114,10 +122,10 @@
 
                 <div class="products__catalog">
                     <ul class="products__list">
-                        <li class="products__list-1">
+                        <li class="products__list-goods">
                             <figure class="visually-hidden">Новый товар</figure>
                             <a href="#"><img src="img/product-1.png" alt="Любительская селфи-палка"></a>
-                            <div>
+                            <div class="products__list-desc">
                                 <span><a href="#" class="product__name-product">Любительская селфи-палка</a></span>
                                 <span class="product__price-product">500 ₽</span>
                             </div>
@@ -125,10 +133,10 @@
                                 <a href="#" class="product__link">Подробнее</a>
                             </div>
                         </li>
-                        <li class="products__list-2">
+                        <li class="products__list-goods">
                             <figure class="visually-hidden">Новый товар</figure>
                             <a href="#"><img src="img/product-2.png" alt="Профессиональная селфи-палка "></a>
-                            <div>
+                            <div class="products__list-desc">
                                 <span><a href="#" class="product__name-product">Профессиональная селфи-палка </a></span>
                                 <span class="product__price-product">1 500 ₽</span>
                             </div>
@@ -136,10 +144,10 @@
                                 <a href="#" class="product__link">Подробнее</a>
                             </div>
                         </li>
-                        <li class="products__list-3">
+                        <li class="products__list-goods">
                             <figure class="visually-hidden">Новый товар</figure>
                             <a href="#"><img src="img/product-3.png" alt="Непотопляемая селфи-палка"></a>
-                            <div>
+                            <div class="products__list-desc">
                                 <span><a href="#" class="product__name-product">Непотопляемая селфи-палка</a></span>
                                 <span class="product__price-product">2 500 ₽</span>
                             </div>
@@ -147,10 +155,10 @@
                                 <a href="#" class="product__link">Подробнее</a>
                             </div>
                         </li>
-                        <li class="products__list-4">
+                        <li class="products__list-goods">
                             <figure class="visually-hidden">Новый товар</figure>
                             <a href="#"><img src="img/product-4.png" alt="Селфи-палка «Следуй за мной»"></a>
-                            <div>
+                            <div class="products__list-desc">
                                 <span><a href="#" class="product__name-product">Селфи-палка «Следуй за мной»</a></span>
                                 <span class="product__price-product">4 900 ₽</span>
                             </div>
