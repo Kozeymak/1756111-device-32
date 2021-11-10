@@ -61,6 +61,8 @@
                 <form action="#" class="options__catalog">
                     <fieldset class="options__price">
                         <legend>Стоимость</legend>
+
+
                         <button type="button">
                             <span class="visually-hidden">Изменить минимальную цену.</span>
                         </button>
@@ -68,12 +70,14 @@
                             <span class="visually-hidden">Изменить максимальную цену.</span>
                         </button>
                         <label>
-                            от <input type="number" name="min-price"> ₽
+                            от <input type="number" name="min-price" value="0"> ₽
                         </label>
                         <label>
-                            до <input type="number" name="max-price"> ₽
+                            до <input type="number" name="max-price" value="5000"> ₽
                         </label>
                     </fieldset>
+
+
                     <fieldset class="options__color">
                         <legend>Цвет</legend>
                         <label><input type="checkbox" checked  for="options__color-1"><span id="options__color-1">Черный</span></label>
@@ -84,8 +88,8 @@
                     </fieldset>
                     <fieldset class="options__blutooth">
                         <legend>Bluetooth</legend>
-                        <input type="radio" checked name="radio" id="yes"><label for="yes">Да</label>
-                        <input type="radio" name="radio" id="no"><label for="no">Нет</label>
+                        <label><input type="radio" checked name="radio" for="yes"><span id="yes">Да</span></label>
+                        <label><input type="radio" name="radio" for="no"><span id="no">Нет</span></label>
                     </fieldset>
                     <button class="options__button">Показать</button>
                 </form>

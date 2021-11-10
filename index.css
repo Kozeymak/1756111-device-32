@@ -1138,8 +1138,11 @@ fieldset {
 .options__catalog fieldset {
     border:0;
     margin: 0;
-    margin-bottom: 40px;
     padding: 0;
+}
+
+.options__catalog {
+    padding-top: 71px;
 }
 
 .options__catalog legend {
@@ -1154,6 +1157,89 @@ fieldset {
     text-align: left;
     padding-top: 12px;
     border-top: 2px solid #000;
+}
+
+.options__price legend{
+
+}
+
+
+
+
+.options__color {
+    display: flex;
+    flex-direction: column;
+}
+
+.options__color label {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.options__color label:first-child {
+    margin-top: 14px;
+}
+
+.options__color label:last-child {
+    margin-bottom: 45px;
+}
+
+.options__color span {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 17px;
+    height: 20px;
+}
+
+.options__color input {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #EBEBEB;
+    border: 2px solid rgb(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.options__blutooth {
+    display: flex;
+    flex-direction: column;
+}
+
+.options__blutooth label {
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.options__blutooth label:first-child {
+    margin-top: 14px;
+}
+
+.options__blutooth label:last-child {
+    margin-bottom: 58px;
+}
+
+.options__blutooth span {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0;
+    margin-left: 17px;
+}
+
+.options__blutooth input {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #EBEBEB;
+    border:2px solid #000;
 }
 
 .options__button {
