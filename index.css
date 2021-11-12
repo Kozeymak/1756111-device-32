@@ -186,7 +186,7 @@ ul, ol {
 
 .header__menu {
     width: 1041px;
-    margin: 34px 59px 0 60px;
+    margin: 34px 59px 38px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1015,6 +1015,7 @@ ul, ol {
     letter-spacing: 0.2em;
     text-align: center;
     color: #fff !important;
+    text-transform: uppercase;
 }
 
 .footer__stick {
@@ -1424,16 +1425,35 @@ fieldset {
 }
 
 
+.products__new {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(img/Newcat.svg);
+    top: 1077px;
+    right: 167px;
+}
+
+.product__link-conteiner {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 380px;
+    top: 544px;
+    background-color:rgba(240, 240, 240, 0.8);
+}
 
 .product__link {
-    background-color: #FFE17F;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px 7px, #FFE17F 7px 15px, rgba(255, 255, 255, 0) 15px 20px);
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
     line-height: 21px;
     letter-spacing: 0.2em;
     text-align: center;
-    
+    text-transform: uppercase;
 }
 
 .products__load-more {
