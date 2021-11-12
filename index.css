@@ -205,6 +205,20 @@ ul, ol {
     width: auto;
 }
 
+.header__option li:hover {
+    opacity: 60%;
+}
+
+.header__option li:focus {
+    border: 2px solid #AF4FFF;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.header__option li:active {
+    opacity: 30%;
+}
+
 .header__option li {
     display: flex;
 }
@@ -311,8 +325,24 @@ ul, ol {
     line-height: 19px;
     letter-spacing: 0;
     width: 464px;
+    opacity: 30%;
 }
 
+.header__search:hover {
+    opacity: 60%;
+}
+
+.header__search:focus {
+    border: 2px solid #AF4FFF;
+    border-radius: 20px;
+}
+
+.header__search:active {
+    border: 2px solid #000;
+    border-radius: 20px;
+    color: #000;
+    opacity: 100%;
+}
 
 .header__catalog {
     font-weight: 800;
@@ -330,6 +360,55 @@ ul, ol {
     padding: 0;
 }
 
+.header__catalog:hover {
+    opacity: 100%;
+    /* Временно, пока не готова кнопка */
+}
+
+.header__catalog:focus {
+    border: 2px solid #AF4FFF;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.header__catalog:active {
+    opacity: 30%;
+}
+
+.header__nested-menu {
+    position: absolute;
+    width: 1160px;
+    height: 180px;
+    background-color: #FFE17F;
+    top: 190px;
+    right: 140px;
+    z-index: 2;
+    display: flex;
+}
+
+.header__nested-menu div {
+    width: 200px;
+    height: 120px;
+    padding:33px 30px 27px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__nested-menu div:first-child {
+    padding-left: 60px;
+}
+
+.header__nested-menu a {
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 18px;
+}
+
 .header__navigation {
     font-weight: 800;
     text-decoration: none;
@@ -344,6 +423,27 @@ ul, ol {
     height: 50px;
     align-items: center;
     padding: 0;
+}
+
+.header__navigation a:hover {
+    border-bottom: 2px solid #000;
+    padding-bottom: 8px;
+}
+
+.header__navigation a:focus {
+    border-bottom: 2px solid #000;
+    padding-bottom: 8px;
+    border: 2px solid #AF4FFF;
+    border-radius: 20px;
+    padding: 0 20px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.header__navigation a:active {
+    border-bottom: 2px solid #000;
+    padding-bottom: 8px;
+    opacity: 30%;
 }
 
 .header__navigation-delivery {
