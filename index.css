@@ -799,6 +799,12 @@ ul, ol {
     background-color: #F0F0F0;
 }
 
+.delivery a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .delivery__img {
     background-image: url(img/deliverycar.svg);
     background-color: #FFE17F;
@@ -832,6 +838,9 @@ ul, ol {
     margin-right: 33px;
     margin-left: 50px;
     align-self: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*контакты*/
