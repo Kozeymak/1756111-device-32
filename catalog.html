@@ -17,11 +17,11 @@
                 <input type="search" placeholder="Поиск по сайту" class="header__search">
             </form>
             <ul class="header__option">
-                <li class="header__option-login  visually-hidden">
+                <li class="header__option-login visually-hidden">
                     <a href="#" class="header__option-person">Войти</a>
                 </li>
-                <li class="header__option-login">
-                    <a href="#" class="header__option-person">Коля Петухов</a>
+                <li class="header__option-user">
+                    <a href="#" class="header__option-name">Коля Петухов</a>
                     <a href="#" class="header__option-person-exite">Выйти</a>
                 </li>
                 <li><a href="#" class="header__option-compare">Сравнить</a></li>
@@ -58,7 +58,10 @@
             </ul>
         </div>
         <div class="header__menu">
-            <button class="header__catalog">Каталог товаров</button>
+            <div class="header__nested">
+                <button class="header__catalog">Каталог товаров</button>
+                <button class="header__min-plus"></button>
+            </div>
             <div class="header__nested-menu visually-hidden">
                 <div>
                     <a href="#">Виртуальная реальность</a>
@@ -79,6 +82,7 @@
                 <nav class="header__navigation-contact"><li><a href="#">Контакты</a></li></nav>
             </ul>
         </div>
+        <div class="header__bottom"></div>
     </header>
     <main class="main">
         
@@ -139,7 +143,7 @@
                     </fieldset>
                     <fieldset class="options__blutooth">
                         <legend>Bluetooth</legend>
-                        <label><input type="radio" checked name="radio" for="yes"><span id="yes">Да</span></label>
+                        <label><input type="radio" checked name="radio" for="yes"><span id="yes">Есть</span></label>
                         <label><input type="radio" name="radio" for="no"><span id="no">Нет</span></label>
                     </fieldset>
                     <button class="options__button">Показать</button>
@@ -182,7 +186,7 @@
                             <figure class="products__new visually-hidden"></figure>
                             <a href="#"><img src="img/product-2.png" alt="Профессиональная селфи-палка "></a>
                             <div class="products__list-desc">
-                                <span><a href="#" class="product__name-product">Профессиональная селфи-палка </a></span>
+                                <span><a href="#" class="product__name-product">Профессиональная<br>селфи-палка </a></span>
                                 <span class="product__price-product">1 500 ₽</span>
                             </div>
                             <div class="product__link-conteiner visually-hidden">
@@ -194,7 +198,7 @@
                             <figure class="products__new visually-hidden"></figure>
                             <a href="#"><img src="img/product-3.png" alt="Непотопляемая селфи-палка"></a>
                             <div class="products__list-desc">
-                                <span><a href="#" class="product__name-product">Непотопляемая селфи-палка</a></span>
+                                <span><a href="#" class="product__name-product">Непотопляемая<br>селфи-палка</a></span>
                                 <span class="product__price-product">2 500 ₽</span>
                             </div>
                             <div class="product__link-conteiner visually-hidden">
