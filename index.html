@@ -60,7 +60,7 @@
                 <button class="header__catalog">Каталог товаров</button>
                 <button class="header__min-plus"></button>
             </div>
-            <div class="header__nested-menu visually-hidden">
+            <div class="header__nested-menu">
                 <div>
                     <a href="#">Виртуальная реальность</a>
                     <a href="#">Моноподы для cелфи</a>
@@ -173,40 +173,40 @@
         <section class="categories">
             <ul class="categories__list">
                 <li>
-                    <img class="categories__list-vr"></img>
-                    <h3>
-                        <a href="">Виртуальная реальность</a>
-                    </h3>
+                    <a href="">
+                        <img class="categories__list-vr"></img>
+                        <h3>Виртуальная реальность</h3>
+                    </a>
                 </li>
                 <li>
-                    <img class="categories__list-mp"></img>
-                    <h3>
-                        <a href="catalog.html">Моноподы для&nbsp;селфи</a>
-                    </h3>
+                    <a href="catalog.html">
+                        <img class="categories__list-mp"></img>
+                        <h3>Моноподы для&nbsp;селфи</h3>
+                    </a>
                 </li>
                 <li>
-                    <img class="categories__list-ec"></img>
-                    <h3>
-                        <a href="">Экшн-камеры</a>
-                    </h3>
+                    <a href="">
+                        <img class="categories__list-ec"></img>
+                        <h3>Экшн-камеры</h3>
+                    </a>
                 </li>
                 <li>
-                    <img class="categories__list-fb"></img>
-                    <h3>
-                        <a href="">Фитнес-браслеты</a>
-                    </h3>
+                    <a href="">
+                        <img class="categories__list-fb"></img>
+                        <h3>Фитнес-браслеты</h3>
+                    </a>
                 </li>
                 <li>
-                    <img class="categories__list-yc"></img>
-                    <h3>
-                        <a href="">Умные часы</a>
-                    </h3>
+                    <a href="">
+                        <img class="categories__list-yc"></img>
+                        <h3>Умные часы</h3>
+                    </a>
                 </li>
                 <li>
-                    <img class="categories__list-quardo"></img>
-                    <h3>
-                        <a href="">Квадрокоптеры</a>
-                    </h3>
+                    <a href="">
+                        <img class="categories__list-quardo"></img>
+                        <h3>Квадрокоптеры</h3>
+                    </a>
                 </li>
             </ul>
         </section>
@@ -348,18 +348,18 @@
                 <li class="footer__list"><a href="#">Гарантия</a></li>
                 <li class="footer__list"><a href="#">Контакты</a></li>
             </ul>
-            <a>
+            <a href="#">
                 Тел.: +7 (812) 812-12-12
             </a>
         </div>
         <div class="footer__social-network">
             <figure class="footer__stick"></figure>
             <ul>
-                <li><a href="https://www.facebook.com/htmlacademy" class="footer__link-face"></a></li>
-                <li><a href="https://www.instagram.com/htmlacademy/" class="footer__link-inst"></a></li>
-                <li><a href="https://twitter.com/htmlacademy_ru" class="footer__link-twet"></a></li>
+                <li><a href="https://www.facebook.com/htmlacademy" class="footer__link-face"><div class="footer__link-face-img"></div></a></li>
+                <li><a href="https://www.instagram.com/htmlacademy/" class="footer__link-inst"><div class="footer__link-inst-img"></div></a></li>
+                <li><a href="https://twitter.com/htmlacademy_ru" class="footer__link-twet"><div class="footer__link-twet-img"></div></a></li>
             </ul>
-            <a href=" https://htmlacademy.ru/"><img src="img/htmlacad.svg" alt="HTML Academy"></a>
+            <a href="https://htmlacademy.ru/" class="footer__img-html"></a>
         </div>
     </footer>
 
@@ -401,10 +401,10 @@
                         </div>
                         <div class="modal__quantily">
                             <span class="visually-hidden">минус</span>
-                            <button class="modal__quantily-minus">-</button>
-                            <input type="number" id="quantily" placeholder="1">
+                            <button class="modal__quantily-minus"></button>
+                            <input type="number" id="quantily" placeholder="1" min="0">
                             <span class="visually-hidden">плюс</span>
-                            <button class="modal__quantily-plus">+</button>
+                            <button class="modal__quantily-plus"></button>
                         </div>
                     </div>
                 </div>
