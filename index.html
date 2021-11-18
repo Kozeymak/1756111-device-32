@@ -13,6 +13,7 @@
         <div class="header__custom-menu">
             <form action="https://echo.htmlacademy.ru/" class="header__form">
                 <input type="search" placeholder="Поиск по сайту" class="header__search">
+                <input type="button" value="Найти" class="header__search-but">
             </form>
             <ul class="header__option">
                 <li class="header__option-login">
@@ -23,7 +24,7 @@
                     <a href="#" class="header__option-person-exite">Выйти</a>
                 </li>
                 <li><a href="#" class="header__option-compare">Сравнить</a></li>
-                <li><a href="#" class="header__option-cart">Корзина</a>
+                <li class="header__popover"><a href="#" class="header__option-cart">Корзина</a>
                     <div class="items-in-cart">2</div>
 
                     <div class="popover">
@@ -32,15 +33,15 @@
                             <div class="popover__items">
                                 <div class="popover__item">
                                     <a href="#">
-                                        <img src="img/product-1.png" alt="Любительская селфи-палка" width="41px" height="43px">
-                                        <p>Любительская селфи-палка</p>
+                                        <img class="popover__item-img" src="img/product-1.png" alt="Любительская селфи-палка" width="41px" height="43px">
+                                        <p class="popover__item-p">Любительская селфи-палка</p>
                                     </a>
                                     <button></button>
                                 </div>
                                 <div class="popover__item">
                                     <a href="#">
                                         <img src="img/product-2.png" alt="Профессиональная селфи-палка" width="41px" height="43px">
-                                        <p>Профессиональная селфи-палка</p>
+                                        <p class="popover__item-p">Профессиональная селфи-палка</p>
                                     </a>
                                     <button></button>
                                 </div>
@@ -59,20 +60,20 @@
             <div class="header__nested">
                 <button class="header__catalog">Каталог товаров</button>
                 <button class="header__min-plus"></button>
-            </div>
-            <div class="header__nested-menu">
-                <div>
-                    <a href="#">Виртуальная реальность</a>
-                    <a href="#">Моноподы для cелфи</a>
-                    <a href="#">Экшн-камеры</a>
-                </div>
-                <div>
-                    <a href="#">Фитнес-браслеты</a>
-                    <a href="#">Умные часы</a>
-                </div>
-                <div>
-                    <a href="#">Квадрокоптеры</a>
-                </div>
+                    <div class="header__nested-menu">
+                        <div>
+                            <a href="#">Виртуальная реальность</a>
+                            <a href="catalog.html">Моноподы для cелфи</a>
+                            <a href="#">Экшн-камеры</a>
+                        </div>
+                        <div>
+                            <a href="#">Фитнес-браслеты</a>
+                            <a href="#">Умные часы</a>
+                        </div>
+                        <div>
+                            <a href="#">Квадрокоптеры</a>
+                        </div>
+                    </div>
             </div>
             <ul class="header__navigation">
                 <nav class="header__navigation-delivery"><li><a href="#">Доставка</a></li></nav>
@@ -296,9 +297,9 @@
                     <p>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</p>
                 </div>
                 <ul>
-                    <li>Меловые линии</li>
-                    <li>СДИК</li>
-                    <li>ТоксБерри</li>
+                    <li><p>Меловые линии</p></li>
+                    <li><p>СДИК</p></li>
+                    <li><p>ТоксБерри</p></li>
                 </ul>
                 <a href="#">Подробнее о нас</a>
             </section>
@@ -363,7 +364,7 @@
         </div>
     </footer>
 
-    <div class="modal">
+    <div class="modal visually-hidden">
         <div class="modal__auth">
             <section class="modal__header">
                 <h2>Доставка под заказ</h2>
@@ -398,6 +399,13 @@
                         <div class="modal__quantily-h-and-i">
                             <label for="quantily">Количество:</label>
                             <button>i</button>
+                            <div class="modal__popover">
+                                <div></div>
+                                <p>
+                                    Постараемся найти, сколько нужно. Привезём сколько получится по 
+                                    требованиям к провозу багажа.
+                                </p>
+                            </div>
                         </div>
                         <div class="modal__quantily">
                             <span class="visually-hidden">минус</span>

@@ -25,7 +25,7 @@
                     <a href="#" class="header__option-person-exite">Выйти</a>
                 </li>
                 <li><a href="#" class="header__option-compare">Сравнить</a></li>
-                <li><a href="#" class="header__option-cart">Корзина</a>
+                <li class="header__popover"><a href="#" class="header__option-cart">Корзина</a>
                     <div class="items-in-cart">2</div>
 
                     <div class="popover">
@@ -34,15 +34,15 @@
                             <div class="popover__items">
                                 <div class="popover__item">
                                     <a href="#">
-                                        <img src="img/product-1.png" alt="Любительская селфи-палка" width="41px" height="43px">
-                                        <p>Любительская селфи-палка</p>
+                                        <img class="popover__item-img" src="img/product-1.png" alt="Любительская селфи-палка" width="41px" height="43px">
+                                        <p class="popover__item-p">Любительская селфи-палка</p>
                                     </a>
                                     <button></button>
                                 </div>
                                 <div class="popover__item">
                                     <a href="#">
                                         <img src="img/product-2.png" alt="Профессиональная селфи-палка" width="41px" height="43px">
-                                        <p>Профессиональная селфи-палка</p>
+                                        <p class="popover__item-p">Профессиональная селфи-палка</p>
                                     </a>
                                     <button></button>
                                 </div>
@@ -61,20 +61,20 @@
             <div class="header__nested">
                 <button class="header__catalog">Каталог товаров</button>
                 <button class="header__min-plus"></button>
-            </div>
-            <div class="header__nested-menu visually-hidden">
-                <div>
-                    <a href="#">Виртуальная реальность</a>
-                    <a href="#">Моноподы для cелфи</a>
-                    <a href="#">Экшн-камеры</a>
-                </div>
-                <div>
-                    <a href="#">Фитнес-браслеты</a>
-                    <a href="#">Умные часы</a>
-                </div>
-                <div>
-                    <a href="#">Квадрокоптеры</a>
-                </div>
+                    <div class="header__nested-menu">
+                        <div>
+                            <a href="#">Виртуальная реальность</a>
+                            <a href="catalog.html">Моноподы для cелфи</a>
+                            <a href="#">Экшн-камеры</a>
+                        </div>
+                        <div>
+                            <a href="#">Фитнес-браслеты</a>
+                            <a href="#">Умные часы</a>
+                        </div>
+                        <div>
+                            <a href="#">Квадрокоптеры</a>
+                        </div>
+                    </div>
             </div>
             <ul class="header__navigation">
                 <nav class="header__navigation-delivery"><li><a href="#">Доставка</a></li></nav>
@@ -135,16 +135,72 @@
 
                     <fieldset class="options__color">
                         <legend>Цвет</legend>
-                        <div><input type="checkbox" checked  id="options__color-1"><label for="options__color-1"><span></span>Черный</label></div>
-                        <div><input type="checkbox" checked id="options__color-2"><label for="options__color-2"><span></span>Белый</label></div>
-                        <div><input type="checkbox" id="options__color-3"><label for="options__color-3"><span></span>Синий</label></div>
-                        <div><input type="checkbox" id="options__color-4"><label for="options__color-4"><span></span>Красный</label></div>
-                        <div><input type="checkbox" id="options__color-5"><label for="options__color-5"><span></span>Розовый</label></div>
+
+                        <div>
+                            <label for="options__color-1" class="options__control">
+                                <input type="checkbox" class="visually-hidden control-input" checked id="options__color-1">
+                                <span class="control-mark"></span>
+                                <span class="control-label">Черный</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label for="options__color-2" class="options__control">
+                                <input type="checkbox" class="visually-hidden control-input" checked id="options__color-2">
+                                <span class="control-mark"></span>
+                                <span class="control-label">Белый</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label for="options__color-3" class="options__control">
+                                <input type="checkbox" class="visually-hidden control-input" id="options__color-3">
+                                <span class="control-mark"></span>
+                                <span class="control-label">Синий</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label for="options__color-4" class="options__control">
+                                <input type="checkbox" class="visually-hidden control-input" id="options__color-4">
+                                <span class="control-mark"></span>
+                                <span class="control-label">Красный</span>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label for="options__color-5" class="options__control">
+                                <input type="checkbox" class="visually-hidden control-input" id="options__color-5">
+                                <span class="control-mark"></span>
+                                <span class="control-label">Розовый</span>
+                            </label>
+                        </div>
+
+                        
                     </fieldset>
                     <fieldset class="options__blutooth">
                         <legend>Bluetooth</legend>
-                        <input type="radio" checked name="radio" id="yes"><label  for="yes"><span></span>Есть</label>
-                        <input type="radio" name="radio" id="no"><label  for="no"><span></span>Нет</label>
+                        
+                    <div>
+                        <label for="yes" class="options__control">
+                            <input type="radio" class="visually-hidden control-input" checked id="yes" name="radio">
+                            <span class="control-mark"></span>
+                            <span class="control-label">Есть</span>
+                        </label>
+                    </div>
+                        
+                    <div>
+                        <label for="no" class="options__control">
+                            <input type="radio" class="visually-hidden control-input" id="no" name="radio">
+                            <span class="control-mark"></span>
+                            <span class="control-label">Нет</span>
+                        </label>
+                    </div>
+
+
+
+
+
                     </fieldset>
                     <button class="options__button">Показать</button>
                 </form>
@@ -189,7 +245,7 @@
                                 <span><a href="#" class="product__name-product">Профессиональная<br>селфи-палка </a></span>
                                 <span class="product__price-product">1 500 ₽</span>
                             </div>
-                            <div class="product__link-conteiner visually-hidden">
+                            <div class="product__link-conteiner">
                                 <a href="#" class="product__link">Подробнее</a>
                             </div>
                         </li>
@@ -201,7 +257,7 @@
                                 <span><a href="#" class="product__name-product">Непотопляемая<br>селфи-палка</a></span>
                                 <span class="product__price-product">2 500 ₽</span>
                             </div>
-                            <div class="product__link-conteiner visually-hidden">
+                            <div class="product__link-conteiner">
                                 <a href="#" class="product__link">Подробнее</a>
                             </div>
                         </li>
@@ -213,7 +269,7 @@
                                 <span><a href="#" class="product__name-product">Селфи-палка «Следуй за мной»</a></span>
                                 <span class="product__price-product">4 900 ₽</span>
                             </div>
-                            <div class="product__link-conteiner visually-hidden">
+                            <div class="product__link-conteiner">
                                 <a href="#" class="product__link">Подробнее</a>
                             </div>
                         </li>
