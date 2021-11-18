@@ -2200,6 +2200,18 @@ fieldset {
     display: flex;
 }
 
+.products__list-goods a:focus {
+    outline: 5px solid #AF4FFF;
+}
+
+.products__list-goods a:focus + .products__list-desc .product__name-product {
+    color: #AF4FFF;
+}
+
+.products__list-goods a:focus + .products__list-desc span {
+    color: #AF4FFF;
+}
+
 .products__list li {
     margin: 44px 20px 0 20px;
 }
