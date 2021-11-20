@@ -4,7 +4,7 @@
     font-family: "Raleway";
     font-style: normal;
     font-weight: 800;
-    src: url(fonts/raleway/raleway-800.woff2) format("woff2");
+    src: url(../fonts/raleway/raleway-800.woff2) format("woff2");
     font-display: swap;
 }
 
@@ -12,7 +12,7 @@
     font-family: "Rubik";
     font-style: normal;
     font-weight: 400;
-    src: url(fonts/rubik/rubik-400.woff2) format("woff2");
+    src: url(../fonts/rubik/rubik-400.woff2) format("woff2");
     font-display: swap;
 }
 
@@ -20,7 +20,7 @@
     font-family: "Rubik";
     font-style: normal;
     font-weight: 700;
-    src: url(fonts/rubik/rubik-700.woff2) format("woff2");
+    src: url(../fonts/rubik/rubik-700.woff2) format("woff2");
     font-display: swap;
 }
 
@@ -28,7 +28,7 @@
     font-family: "Rubik";
     font-style: normal;
     font-weight: 800;
-    src: url(fonts/rubik/rubik-800.woff2) format("woff2");
+    src: url(../fonts/rubik/rubik-800.woff2) format("woff2");
     font-display: swap;
 }
 
@@ -61,10 +61,6 @@
 }
 
 .contacts h2 {
-    font-family: "Raleway", Arial, Helvetica, sans-serif;
-}
-
-.contacts a {
     font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
@@ -134,7 +130,7 @@ a {
 
 figure {
     margin: 0;
-    padding: 0 !important;
+    padding: 0;
 }
 
 .main {
@@ -158,6 +154,10 @@ ul, ol {
 }
 
 /*хедер*/
+
+.header__nested-block {
+    height: 35px;
+}
 
 .header__logo {
     display: block;
@@ -188,7 +188,7 @@ ul, ol {
 
 .header__menu {
     width: 1080px;
-    margin: 23px 40px 2px 40px;
+    margin: 20px 40px 2px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -230,7 +230,7 @@ ul, ol {
 }
 
 .header__option-person::before {
-    background-image: url(img/person.svg);
+    background-image: url(../img/person.svg);
     content: "";
     background-size: cover;
     height: 12px;
@@ -271,7 +271,7 @@ ul, ol {
 }
 
 .header__option-name::before {
-    background-image: url(img/person.svg);
+    background-image: url(../img/person.svg);
     content: "";
     background-size: cover;
     height: 12px;
@@ -341,7 +341,7 @@ ul, ol {
 }
 
 .header__option-compare::before {
-    background-image: url(img/compare.svg);
+    background-image: url(../img/compare.svg);
     content: "";
     background-size: cover;
     height: 10px;
@@ -366,7 +366,7 @@ ul, ol {
 }
 
 .header__option-cart::before {
-    background-image: url(img/cart.svg);
+    background-image: url(../img/cart.svg);
     content: "";
     background-size: cover;
     height: 14px;
@@ -421,7 +421,7 @@ ul, ol {
 }
 
 .header__form::before {
-    background-image: url(img/search.svg);
+    background-image: url(../img/search.svg);
     content: "";
     background-size: cover;
     height: 16px;
@@ -559,13 +559,13 @@ ul, ol {
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    background-image: url(img/plus.svg);
+    background-image: url(../img/plus.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .header__nested:hover .header__min-plus {
-    background-image: url(img/minus.svg);
+    background-image: url(../img/minus.svg);
     opacity: 100%;
 }
 
@@ -707,7 +707,7 @@ ul, ol {
 }
 
 .slider__left {
-    background-image: url(img/leftslider.svg);
+    background-image: url(../img/leftslider.svg);
     width: 40px;
     height: 80px;
     background-color: #fff;
@@ -722,7 +722,7 @@ ul, ol {
 }
 
 .slider__right {
-    background-image: url(img/rightslider.svg);
+    background-image: url(../img/rightslider.svg);
     width: 40px;
     height: 80px;
     background-color: #fff;
@@ -884,7 +884,7 @@ ul, ol {
 
 .categories {
     width: 1160px;
-    margin: 70px auto 75px auto;
+    margin: 70px auto 70px auto;
 }
 
 .categories__list {
@@ -922,7 +922,7 @@ ul, ol {
 .categories__list h3 {
     width: 160px;
     margin-top: 0;
-    padding-top: 26px;
+    padding-top: 35px;
     margin-bottom: 0;
     height: 60px;
     font-size: 18px;
@@ -940,27 +940,27 @@ ul, ol {
 }
 
 .categories__list-vr {
-    background-image: url(img/vr.png);
+    background-image: url(../img/vr.png);
 }
 
 .categories__list-mp {
-    background-image: url(img/mp.png);
+    background-image: url(../img/mp.png);
 }
 
 .categories__list-ec {
-    background-image: url(img/ec.png);
+    background-image: url(../img/ec.png);
 }
 
 .categories__list-fb {
-    background-image: url(img/fb.png);
+    background-image: url(../img/fb.png);
 }
 
 .categories__list-yc {
-    background-image: url(img/yc.png);
+    background-image: url(../img/yc.png);
 }
 
 .categories__list-quardo {
-    background-image: url(img/quardo.png);
+    background-image: url(../img/quardo.png);
 }
 
 /*сервисы*/
@@ -977,7 +977,7 @@ ul, ol {
     font-style: normal;
     line-height: 21px;
     letter-spacing: 0.2em;
-    width: 160px;
+    width: 140px;
     height: 40px;
     text-align: center;
     display: flex;
@@ -987,22 +987,43 @@ ul, ol {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px 16px, #FFE17F 16px 24px, rgba(255, 255, 255, 0) 24px 40px);
 }
 
-.services-input[type="radio"]:checked + .services-label {
+.services-input[type="radio"]:checked + .services-label, .services-input[type="radio"]:checked + .services-crash {
     background: #000;
     color: #FFE17F;
     width: 260px;
     justify-content: flex-start;
 }
 
-.services-label:hover {
+.services-label:hover, .services-crash:hover {
     background: linear-gradient(to bottom, #FFE17F 0px 16px, #FFE17F 16px 24px, #FFE17F 24px 40px);
 }
 
-.services-input[type="radio"]:disabled:focus  + .services-label{
+.services-input[type="radio"]:disabled:focus  + .services-label, .services-input[type="radio"]:disabled:focus  + .services-crash{
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px 16px, #AF4FFF 16px 24px, rgba(255, 255, 255, 0) 24px 40px);
 }
 
+.services-crash {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    width: 126px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 34px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px 16px, #FFE17F 16px 24px, rgba(255, 255, 255, 0) 24px 40px);
+}
 
+.services-input[type="radio"]:checked + .services-crash {
+    background: #000;
+    color: #FFE17F;
+    width: 245px;
+    justify-content: flex-start;
+}
 
 .services {
     margin-bottom: 90px;
@@ -1013,7 +1034,7 @@ ul, ol {
     display: flex;
     width: 1114px;
     padding: 0;
-    margin: 0 auto 0 138px;
+    margin: 0 138px 0 140px;
 }
 
 .services__fon {
@@ -1037,13 +1058,13 @@ ul, ol {
     flex-direction: column;
     justify-content: flex-end;
     list-style: none;
-    width: 280px;
+    width: 276px;
     height: 319px;
     margin: 0;
 }
 
 .services__list li:nth-of-type(1) {
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 .services__list li:nth-of-type(2) {
@@ -1053,7 +1074,6 @@ ul, ol {
 .services__list li:nth-of-type(3) {
     margin-bottom: 70px;
 }
-
 
 .services__list {
     border-right: #000 7px solid;
@@ -1071,7 +1091,7 @@ ul, ol {
 }
 
 .services__img-delivery {
-    background-image: url(img/delivery1.svg);
+    background-image: url(../img/delivery1.svg);
     background-position: center;
     width: 136px;
     height: 166px;
@@ -1080,14 +1100,14 @@ ul, ol {
 }
 
 .services__img-garant {
-    background-image: url(img/garant.svg);
+    background-image: url(../img/garant.svg);
     background-position: center;
     width: 171px;
     height: 195px;
 }
 
 .services__img-credit {
-    background-image: url(img/credit.svg);
+    background-image: url(../img/credit.svg);
     background-position: center;
     width: 156px;
     height: 188px;
@@ -1146,7 +1166,7 @@ ul, ol {
 }
 
 .delivery__img {
-    background-image: url(img/deliverycar.svg);
+    background-image: url(../img/deliverycar.svg);
     width: 125px;
     height: 100px;
     background-position: center;
@@ -1207,16 +1227,19 @@ ul, ol {
 }
 
 .contacts__about-us ul {
-    margin-top: 13px;
-    margin-bottom: 59px;
-    height: 120px;
+    margin-top: 18px;
+    margin-bottom: 64px;
+    margin-left: 27px;
+    height: 110px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    justify-content: space-between;
 }
 
 .contacts__about-us li {
     color: #FFC700;
+    margin-left: -7px;
 }
 
 .contacts__about-us li > p {
@@ -1227,7 +1250,7 @@ ul, ol {
     list-style-position: inside;
     margin-top: auto;
     margin-bottom: auto;
-    padding-left: 8px;
+    margin-left: 15px;
 }
 
 .contacts__box-with-p {
@@ -1303,6 +1326,7 @@ ul, ol {
 }
 
 .contacts__about-us a {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
     background: linear-gradient(to bottom, #fff 0px 7px, #FFE17F 7px 15px, #fff 15px 20px);
     font-size: 18px;
     font-style: normal;
@@ -1312,10 +1336,26 @@ ul, ol {
     text-align: center;
     text-transform: uppercase;
     padding-left: 17px;
+    padding-right: 16px;
+}
+
+.contacts__about-us a:hover, .contacts__write:hover {
+    padding-top: 9px;
+    padding-bottom: 10px;
+    background: linear-gradient(to bottom, #FFE17F 0px 7px, #FFE17F 7px 15px, #FFE17F 15px 20px);
+}
+
+.contacts__about-us a:focus, .contacts__write:focus {
+    background: linear-gradient(to bottom, #fff 0px 7px, #AF4FFF 7px 15px, #fff 15px 20px);
+}
+
+.contacts__about-us a:active, .contacts__write:active {
+    color: rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, #FFE17F 0px 7px, #FFE17F 7px 15px, #FFE17F 15px 20px);
 }
 
 .contacts__number {
-    font-family: "Rubik", Arial, Helvetica, sans-serif !important;
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -1330,6 +1370,7 @@ ul, ol {
 }
 
 .contacts__write {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
     background: linear-gradient(to bottom, #fff 0px 7px, #FFE17F 7px 15px, #fff 15px 20px);
     font-size: 18px;
     font-style: normal;
@@ -1338,7 +1379,8 @@ ul, ol {
     letter-spacing: 0.2em;
     text-align: center;
     text-transform: uppercase;
-    margin-left: 34px;
+    padding-left: 34px;
+    padding-right: 30px;
 }
 
 /*подписка*/
@@ -1458,7 +1500,7 @@ ul, ol {
 }
 
 .subscription__check {
-    background-image: url(img/check.svg);
+    background-image: url(../img/check.svg);
     width: 14px;
     height: 14px;
 }
@@ -1577,7 +1619,7 @@ ul, ol {
 }
 
 .footer__img-html {
-    background-image: url(img/htmlacad.svg);
+    background-image: url(../img/htmlacad.svg);
     width: 135px;
     height: 53px;
     background-repeat: no-repeat;
@@ -1585,7 +1627,7 @@ ul, ol {
 }
 
 .footer__img-html:hover {
-    background-image: url(img/htmlacadW.svg);
+    background-image: url(../img/htmlacadW.svg);
 }
 
 .footer__img-html:focus {
@@ -1595,7 +1637,7 @@ ul, ol {
 }
 
 .footer__img-html:active {
-    background-image: url(img/htmlacadW.svg);
+    background-image: url(../img/htmlacadW.svg);
     opacity: 30%;
 }
 
@@ -1656,7 +1698,7 @@ ul, ol {
 }
 
 .footer__stick {
-    background-color: #FFE17F;
+    background-color: #FFC700;
     width: 80px;
     height: 7px;
 }
@@ -1705,7 +1747,7 @@ ul, ol {
 }
 
 .footer__link-twet-img {
-    background-image: url(img/twet.svg);
+    background-image: url(../img/twet.svg);
     width: 15px;
     height: 14px;
     background-position: center;
@@ -1714,7 +1756,7 @@ ul, ol {
 }
 
 .footer__link-inst-img {
-    background-image: url(img/inst.svg);
+    background-image: url(../img/inst.svg);
     width: 16px;
     height: 16px;
     background-position: center;
@@ -1723,7 +1765,7 @@ ul, ol {
 }
 
 .footer__link-face-img {
-    background-image: url(img/face.svg);
+    background-image: url(../img/face.svg);
     width: 9px;
     height: 18px;
     background-position: center;
@@ -1928,7 +1970,7 @@ fieldset {
     line-height: 18px;
     letter-spacing: 0em;
     text-align: center;
-    margin-bottom: 36px;  
+    margin-bottom: 33px;  
     opacity: 0.3;  
     margin-top: 6px;
 }
@@ -1980,7 +2022,7 @@ fieldset {
     left: -1px;
     width: 16px;
     height: 16px;
-    background-image: url(img/nike.svg);
+    background-image: url(../img/nike.svg);
     background-position: center;
     background-repeat: no-repeat;
     content: "";
@@ -1996,7 +2038,7 @@ fieldset {
 }
 
 .options__color div:nth-of-type(1) {
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .options__color div:last-child {
@@ -2097,7 +2139,7 @@ fieldset {
 }
 
 .product__vectord {
-    background-image: url(img/VectorD.svg);
+    background-image: url(../img/VectorD.svg);
     width: 40px;
     height: 40px;
     border: 0;
@@ -2111,7 +2153,7 @@ fieldset {
 }
 
 .product__vectoru {
-    background-image: url(img/VectorU.svg);
+    background-image: url(../img/VectorU.svg);
     width: 40px;
     height: 40px;
     border: 0;
@@ -2225,7 +2267,7 @@ fieldset {
 
 .products__catalog {
     padding: 25px 120px 0 52px;
-    margin-bottom: 75px;
+    margin-bottom: 78px;
 }
 
 .product__price-product{
@@ -2242,7 +2284,7 @@ fieldset {
     position: absolute;
     width: 60px;
     height: 60px;
-    background-image: url(img/Newcat.svg);
+    background-image: url(../img/Newcat.svg);
     top: 27px;
     right: 27px;
 }
@@ -2428,7 +2470,7 @@ fieldset {
     height: 50px;
     border: 0;
     background-color: #fff;
-    background-image: url(img/cross.svg);
+    background-image: url(../img/cross.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -2514,7 +2556,7 @@ fieldset {
 .modal__img-name {
     width: 40px;
     height: 40px;
-    background-image: url(img/personW.svg);
+    background-image: url(../img/personW.svg);
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -2571,7 +2613,7 @@ fieldset {
 .modal__img-email {
     width: 50px;
     height: 40px;
-    background-image: url(img/letterW.svg);
+    background-image: url(../img/letterW.svg);
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
@@ -2736,11 +2778,11 @@ fieldset {
 }
 
 .modal__quantily-plus {
-    background-image: url(img/plus.svg);
+    background-image: url(../img/plus.svg);
 }
 
 .modal__quantily-minus {
-    background-image: url(img/minus.svg);
+    background-image: url(../img/minus.svg);
 }
 
 .modal__quantily input{
@@ -2870,7 +2912,7 @@ fieldset {
 
 
 .popover__item button{
-    background-image: url(img/crossw.svg);
+    background-image: url(../img/crossw.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 25px;
