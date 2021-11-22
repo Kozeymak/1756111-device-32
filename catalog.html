@@ -111,25 +111,31 @@
                     <fieldset class="options__price">
                         <legend class="options__price-legend">Стоимость</legend>
                         
-                        <div class="otions__range">
-                            <div class="otions__scale">
+                        <div class="options__range">
+                            <div class="options__scale">
                                 <div class="options__radius">
-                                    <button type="button" class="options__radius-min">
-                                        <span class="visually-hidden">Изменить минимальную цену.</span>
-                                    </button>
-                                    <button type="button" class="options__radius-max">
-                                        <span class="visually-hidden">Изменить максимальную цену.</span>
-                                    </button>
-                                </div>
-                            </div>
-                            
-                            <div class="options__wrapper">
-                                <label class="options__wrapper-min">
-                                    от<input class="options__wrapper-input-min" type="number" name="min-price" value="0">
-                                </label>
-                                <label class="options__wrapper-max">
-                                    до<input class="options__wrapper-input-max" type="number" name="max-price" value="5000">
-                                </label>
+
+                                    <div class="options__min">
+                                        <button type="button" class="options__radius-min">
+                                            <span class="visually-hidden">Изменить минимальную цену.</span>
+                                        </button>
+                                        <label class="options__wrapper-min">
+                                            от<input class="options__wrapper-input-min" type="number" name="min-price" value="0">
+                                        </label>
+                                    </div>
+
+                                    <div class="options__max">
+                                        <button type="button" class="options__radius-max">
+                                            <span class="visually-hidden">Изменить максимальную цену.</span>
+                                        </button>
+                                        <label class="options__wrapper-max">
+                                            до<input class="options__wrapper-input-max" type="number" name="max-price" value="5000">
+                                        </label>
+                                    </div>
+
+
+
+                                    </div>
                             </div>
                         </div>
                     </fieldset>
