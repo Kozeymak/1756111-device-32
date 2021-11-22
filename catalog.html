@@ -10,8 +10,8 @@
 </head>
 <body>
     <!--Хедер-->
-    <img src="img/device.svg" alt="#" width="145px" height="36px" class="header__logo">
-        <header class="header">
+    <img src="img/device.svg" alt="#" width="145" height="36" class="header__logo">
+    <header class="header">
         <h1 class="visually-hidden">Device</h1>
         <div class="header__custom-menu">
             <form action="https://echo.htmlacademy.ru/" class="header__form">
@@ -35,23 +35,23 @@
                         <div class="popover__content">
                             <div class="popover__items">
                                 <div class="popover__item">
-                                    <a href="#">
-                                        <img class="popover__item-img" src="img/product-1.png" alt="Любительская селфи-палка" width="41px" height="43px">
+                                    <a href="#" class="popover__item-link">
+                                        <img class="popover__item-img" src="img/product-1.png" alt="Любительская селфи-палка" width="41" height="43">
                                         <p class="popover__item-p">Любительская селфи-палка</p>
                                     </a>
-                                    <button></button>
+                                    <button class="popover__button-cross"></button>
                                 </div>
                                 <div class="popover__item">
-                                    <a href="#">
-                                        <img src="img/product-2.png" alt="Профессиональная селфи-палка" width="41px" height="43px">
+                                    <a href="#" class="popover__item-img">
+                                        <img class="popover__item-img" src="img/product-2.png" alt="Профессиональная селфи-палка" width="41" height="43">
                                         <p class="popover__item-p">Профессиональная селфи-палка</p>
                                     </a>
-                                    <button></button>
+                                    <button class="popover__button-cross"></button>
                                 </div>
                             </div>
                             <div class="popover__summ">
-                                <p>Товаров: 2</p>
-                                <p>Сумма: 2000 ₽</p>
+                                <p class="popover__sum-items">Товаров: 2</p>
+                                <p class="popover__sum-price">Сумма: 2000 ₽</p>
                             </div>
                             <button class="popover__button">Открыть корзину</button>
                         </div>
@@ -65,23 +65,23 @@
                 <button class="header__min-plus"></button>
             </div>
             <div class="header__nested-menu">
-                <div>
-                    <a href="#">Виртуальная реальность</a>
-                    <a href="catalog.html">Моноподы для cелфи</a>
-                    <a href="#">Экшн-камеры</a>
+                <div class="header__nested-box">
+                    <a class="header__nested-link" href="#">Виртуальная реальность</a>
+                    <a class="header__nested-link" href="catalog.html">Моноподы для cелфи</a>
+                    <a class="header__nested-link" href="#">Экшн-камеры</a>
                 </div>
-                <div>
-                    <a href="#">Фитнес-браслеты</a>
+                <div class="header__nested-box">
+                    <a class="header__nested-link" href="#">Фитнес-браслеты</a>
                     <a href="#">Умные часы</a>
                 </div>
-                <div>
-                    <a href="#">Квадрокоптеры</a>
+                <div class="header__nested-box">
+                    <a class="header__nested-link" href="#">Квадрокоптеры</a>
                 </div>
             </div>
             <ul class="header__navigation">
-                <nav class="header__navigation-delivery"><li><a href="#">Доставка</a></li></nav>
-                <nav class="header__navigation-guarante"><li><a href="#">Гарантия</a></li></nav>
-                <nav class="header__navigation-contact"><li><a href="#">Контакты</a></li></nav>
+                <li class="header__navigation-delivery"><nav><a href="#">Доставка</a></nav></li>
+                <li class="header__navigation-guarante"><nav><a href="#">Гарантия</a></nav></li>
+                <li class="header__navigation-contact"><nav><a href="#">Контакты</a></nav></li>
             </ul>
         </div>
         <div class="header__nested-block"></div>
@@ -90,14 +90,14 @@
         
         <!--Хлебные крошки-->
         <section class="crumbs">
-            <div>
-                <h1>Моноподы для селфи</h1>
+            <div class="crumbs-box-h1">
+                <h1 class="crumbs-h1">Моноподы для селфи</h1>
             </div>
-            <div>
+            <div class="crumbs__box-list">
                 <ul class="crumbs__list">
-                    <li><a href="index.html">Главная</a></li>
-                    <li><a href="#">Каталог товаров</a></li>
-                    <li><a href="#">Моноподы для селфи</a></li>
+                    <li class="crumbs__page"><a class="crumbs__link" href="index.html">Главная</a></li>
+                    <li class="crumbs__page"><a class="crumbs__link" href="#">Каталог товаров</a></li>
+                    <li class="crumbs__page"><a class="crumbs__link" href="#">Моноподы для селфи</a></li>
                 </ul>
             </div>
         </section>
@@ -107,9 +107,9 @@
 
             <div class="options">
                 <div class="options__filters">Фильтр:</div>
-                <form action="#" class="options__catalog">
+                <form action="https://echo.htmlacademy.ru/" class="options__catalog">
                     <fieldset class="options__price">
-                        <legend>Стоимость</legend>
+                        <legend class="options__price-legend">Стоимость</legend>
                         
                         <div class="otions__range">
                             <div class="otions__scale">
@@ -125,10 +125,10 @@
                             
                             <div class="options__wrapper">
                                 <label class="options__wrapper-min">
-                                    от<input type="number" name="min-price" value="0">
+                                    от<input class="options__wrapper-input-min" type="number" name="min-price" value="0">
                                 </label>
                                 <label class="options__wrapper-max">
-                                    до<input type="number" name="max-price" value="5000">
+                                    до<input class="options__wrapper-input-max" type="number" name="max-price" value="5000">
                                 </label>
                             </div>
                         </div>
@@ -136,9 +136,9 @@
 
 
                     <fieldset class="options__color">
-                        <legend>Цвет</legend>
+                        <legend class="options__color-legend">Цвет</legend>
 
-                        <div>
+                        <div class="options__color-conteiner-1">
                             <label for="options__color-1" class="options__control">
                                 <input type="checkbox" class="visually-hidden control-input" checked id="options__color-1">
                                 <span class="control-mark"></span>
@@ -146,7 +146,7 @@
                             </label>
                         </div>
 
-                        <div>
+                        <div class="options__color-conteiner-2">
                             <label for="options__color-2" class="options__control">
                                 <input type="checkbox" class="visually-hidden control-input" checked id="options__color-2">
                                 <span class="control-mark"></span>
@@ -154,7 +154,7 @@
                             </label>
                         </div>
 
-                        <div>
+                        <div class="options__color-conteiner-3">
                             <label for="options__color-3" class="options__control">
                                 <input type="checkbox" class="visually-hidden control-input" id="options__color-3">
                                 <span class="control-mark"></span>
@@ -162,7 +162,7 @@
                             </label>
                         </div>
 
-                        <div>
+                        <div class="options__color-conteiner-4">
                             <label for="options__color-4" class="options__control">
                                 <input type="checkbox" class="visually-hidden control-input" id="options__color-4">
                                 <span class="control-mark"></span>
@@ -170,7 +170,7 @@
                             </label>
                         </div>
 
-                        <div>
+                        <div class="options__color-conteiner-5">
                             <label for="options__color-5" class="options__control">
                                 <input type="checkbox" class="visually-hidden control-input" id="options__color-5">
                                 <span class="control-mark"></span>
@@ -181,9 +181,9 @@
                         
                     </fieldset>
                     <fieldset class="options__blutooth">
-                        <legend>Bluetooth</legend>
+                        <legend class="options__blutooth-legend">Bluetooth</legend>
                         
-                    <div>
+                    <div class="options__blutooth-conteiner-1">
                         <label for="yes" class="options__control">
                             <input type="radio" class="visually-hidden control-input" checked id="yes" name="radio">
                             <span class="control-mark"></span>
@@ -191,7 +191,7 @@
                         </label>
                     </div>
                         
-                    <div>
+                    <div class="options__blutooth-conteiner-2">
                         <label for="no" class="options__control">
                             <input type="radio" class="visually-hidden control-input" id="no" name="radio">
                             <span class="control-mark"></span>
@@ -212,17 +212,17 @@
             <div class="products">
 
                 <div class="products__sorting">
-                    <label for="#">
-                        <span>Сортировка:</span>
-                        <select>
-                            <option>Сначала популярные</option>
-                            <option>Сначала дорогие</option> 
+                    <label class="products__sorting-label" for="products__sorting-select">
+                        <span class="products__sorting-span">Сортировка:</span>
+                        <select class="products__sorting-select" id="products__sorting-select">
+                            <option class="products__sorting-option1">Сначала популярные</option>
+                            <option class="products__sorting-option2">Сначала дорогие</option> 
                         </select>
-                        <div class="product__vectors">
-                            <button class="product__vectoru"></button>
-                            <button class="product__vectord"></button>
-                        </div>
                     </label>
+                    <div class="product__vectors">
+                        <button class="product__vectoru"></button>
+                        <button class="product__vectord"></button>
+                    </div>
                 </div>
 
                 <div class="products__catalog">
@@ -230,9 +230,9 @@
                         <li class="products__list-goods">
                             <span class="visually-hidden">Новый товар</span>
                             <figure class="products__new visually-hidden"></figure>
-                            <a href="#"><img src="img/product-1.png" alt="Любительская селфи-палка"></a>
+                            <a href="#" class="products__new-link"><img class="products__new-lmg" src="img/product-1.png" alt="Любительская селфи-палка" width="360" height="380"></a>
                             <div class="products__list-desc">
-                                <span><a href="#" class="product__name-product">Любительская селфи-палка</a></span>
+                                <span class="product__price-description"><a href="#" class="product__name-product">Любительская селфи-палка</a></span>
                                 <span class="product__price-product">500 ₽</span>
                             </div>
                             <div class="product__link-conteiner">
@@ -242,9 +242,9 @@
                         <li class="products__list-goods">
                             <span class="visually-hidden">Новый товар</span>
                             <figure class="products__new visually-hidden"></figure>
-                            <a href="#"><img src="img/product-2.png" alt="Профессиональная селфи-палка "></a>
+                            <a href="#" class="products__new-link"><img class="products__new-lmg" src="img/product-2.png" alt="Профессиональная селфи-палка" width="360" height="380"></a>
                             <div class="products__list-desc">
-                                <span><a href="#" class="product__name-product">Профессиональная<br>селфи-палка </a></span>
+                                <span class="product__price-description"><a href="#" class="product__name-product">Профессиональная<br>селфи-палка </a></span>
                                 <span class="product__price-product">1 500 ₽</span>
                             </div>
                             <div class="product__link-conteiner">
@@ -254,9 +254,9 @@
                         <li class="products__list-goods">
                             <span class="visually-hidden">Новый товар</span>
                             <figure class="products__new visually-hidden"></figure>
-                            <a href="#"><img src="img/product-3.png" alt="Непотопляемая селфи-палка"></a>
+                            <a href="#" class="products__new-link"><img class="products__new-lmg" src="img/product-3.png" alt="Непотопляемая селфи-палка" width="360" height="380"></a>
                             <div class="products__list-desc">
-                                <span><a href="#" class="product__name-product">Непотопляемая<br>селфи-палка</a></span>
+                                <span class="product__price-description"><a href="#" class="product__name-product">Непотопляемая<br>селфи-палка</a></span>
                                 <span class="product__price-product">2 500 ₽</span>
                             </div>
                             <div class="product__link-conteiner">
@@ -266,9 +266,9 @@
                         <li class="products__list-goods">
                             <span class="visually-hidden">Новый товар</span>
                             <figure class="products__new"></figure>
-                            <a href="#"><img src="img/product-4.png" alt="Селфи-палка «Следуй за мной»"></a>
+                            <a href="#" class="products__new-link"><img class="products__new-lmg" src="img/product-4.png" alt="Селфи-палка «Следуй за мной»" width="360" height="380"></a>
                             <div class="products__list-desc">
-                                <span><a href="#" class="product__name-product">Селфи-палка «Следуй за мной»</a></span>
+                                <span class="product__price-description"><a href="#" class="product__name-product">Селфи-палка «Следуй за мной»</a></span>
                                 <span class="product__price-product">4 900 ₽</span>
                             </div>
                             <div class="product__link-conteiner">
@@ -281,11 +281,11 @@
                     <div class="products__pages">
                         <a href="#" class="products__pages-back">назад</a>
                         <div class="product__page-numbers">
-                            <a href="#">1</a>
-                            <a href="#">2</a>
-                            <a href="#">3</a>
-                            <span>...</span>
-                            <a href="#">15</a>
+                            <a href="#" class="product__page-link">1</a>
+                            <a href="#" class="product__page-link">2</a>
+                            <a href="#" class="product__page-link">3</a>
+                            <span class="product__page-link">...</span>
+                            <a href="#" class="product__page-link">15</a>
                         </div>
                         <a href="#" class="products__pages-forward">вперед</a>
                     </div>
@@ -298,25 +298,37 @@
     <!--Футер-->
     <footer class="footer">
         <div class="footer__img">
-            <img src="img/logoyellow.svg" alt="Девайс" width="145px" height="36px">
+            <img class="footer__pictur" src="img/logoyellow.svg" alt="Девайс" width="145" height="36">
         </div>
         <div class="footer__contacts">
-            <p>Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-            <ul>
-                <li class="footer__list"><a href="#">Доставка</a></li>
-                <li class="footer__list"><a href="#">Гарантия</a></li>
-                <li class="footer__list"><a href="#">Контакты</a></li>
+            <p class="footer__contacts-p">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+            <ul class="footer__contacts-list">
+                <li class="footer__list"><a class="footer__list-link" href="#">Доставка</a></li>
+                <li class="footer__list"><a class="footer__list-link" href="#">Гарантия</a></li>
+                <li class="footer__list"><a class="footer__list-link" href="#">Контакты</a></li>
             </ul>
-            <a href="#">
+            <a class="footer__number" href="+78128121212">
                 Тел.: +7 (812) 812-12-12
             </a>
         </div>
         <div class="footer__social-network">
             <figure class="footer__stick"></figure>
-            <ul>
-                <li><a href="https://www.facebook.com/htmlacademy" class="footer__link-face"><div class="footer__link-face-img"></div></a></li>
-                <li><a href="https://www.instagram.com/htmlacademy/" class="footer__link-inst"><div class="footer__link-inst-img"></div></a></li>
-                <li><a href="https://twitter.com/htmlacademy_ru" class="footer__link-twet"><div class="footer__link-twet-img"></div></a></li>
+            <ul class="footer__list-2">
+                <li class="footer__page">
+                    <a href="https://www.facebook.com/htmlacademy" class="footer__link-face">
+                        <div class="footer__link-face-img"></div>
+                    </a>
+                </li>
+                <li class="footer__page">
+                    <a href="https://www.instagram.com/htmlacademy/" class="footer__link-inst">
+                        <div class="footer__link-inst-img"></div>
+                    </a>
+                </li>
+                <li class="footer__page">
+                    <a href="https://twitter.com/htmlacademy_ru" class="footer__link-twet">
+                        <div class="footer__link-twet-img"></div>
+                    </a>
+                </li>
             </ul>
             <a href="https://htmlacademy.ru/" class="footer__img-html"></a>
         </div>

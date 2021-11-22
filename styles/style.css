@@ -780,13 +780,13 @@ ul, ol {
     width: 1150px;
     position: absolute;
     z-index: -1;
-    height: 145px;
+    height: 151px;
     display: flex;
     padding-right: 10px;
 }
 
 .slider__number {
-    margin: auto 49px -15px auto
+    margin: auto 26px -15px auto
 }
 
 .slider__detail {
@@ -915,7 +915,7 @@ ul, ol {
     color:#AF4FFF;
 }
 
-.categories__list img:active {
+.categories__list div:active {
     opacity: 30%;
 }
 
@@ -933,9 +933,9 @@ ul, ol {
     background-color: #fff;
 }
 
-.categories__list img {
+.categories__list div {
     width: 160px;
-    height: 160px;
+    height: 170px;
     margin-bottom: -10px;
 }
 
@@ -2113,12 +2113,15 @@ fieldset {
 
 .products__sorting {
     background-color:#EBEBEB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 72px;
+    padding-right: 127px;
 }
 
 .products__sorting label {
     display: flex;
-    margin-left: 72px;
-    margin-right: 140px;
     align-items: center;
     justify-content: space-between;
     height: 70px;
@@ -2135,7 +2138,6 @@ fieldset {
 
 .product__vectors {
     display: flex;
-    margin-right: -13px;
 }
 
 .product__vectord {
