@@ -1966,6 +1966,11 @@ fieldset {
     opacity: 30%;
 }
 
+.options__radius-min:focus + .options__wrapper-min .options__wrapper-input-min, .options__radius-max:focus + .options__wrapper-max .options__wrapper-input-max{
+    color:#AF4FFF;
+    opacity: 30%;
+}
+
 .options__radius-min:active, .options__radius-max:active {
     border-color:#000 ;
     background-color: #000;
