@@ -37,14 +37,18 @@
                                         <img class="popover__item-img" src="img/product-1.png" alt="Любительская селфи-палка" width="41" height="43">
                                         <p class="popover__item-p">Любительская селфи-палка</p>
                                     </a>
-                                    <button class="popover__button-cross"></button>
+                                    <button class="popover__button-cross">
+                                        <span class="visually-hidden">Удалить пункт</span>
+                                    </button>
                                 </div>
                                 <div class="popover__item">
                                     <a href="#" class="popover__item-img">
                                         <img class="popover__item-img" src="img/product-2.png" alt="Профессиональная селфи-палка" width="41" height="43">
                                         <p class="popover__item-p">Профессиональная селфи-палка</p>
                                     </a>
-                                    <button class="popover__button-cross"></button>
+                                    <button class="popover__button-cross">
+                                        <span class="visually-hidden">Удалить пункт</span>
+                                    </button>
                                 </div>
                             </div>
                             <div class="popover__summ">
@@ -92,11 +96,15 @@
                 <div class="slider__back"><img src="img/01.svg" alt="Первый слайд" class="slider__number" width="250" height="135"></div>
                 <div  class="slider__back visually-hidden"><img src="img/02.svg" alt="Первый слайд" class="slider__number" width="250" height="135"></div>
                 <div  class="slider__back visually-hidden"><img src="img/03.svg" alt="Первый слайд" class="slider__number" width="250" height="135"></div>
-                <button class="slider__left"></button>
+                <button class="slider__left">
+                    <span class="visually-hidden">Перелистнуть влево</span>
+                </button>
                 <img src="img/slider-1.png" alt="Квадрокоптер" class="slider__img-1" width="560" height="560">
                 <img src="img/slider-2.png" alt="Браслет" class="slider__img-2 visually-hidden" width="560" height="560">
                 <img src="img/slider-3.png" alt="Селфи палка" class="slider__img-3 visually-hidden" width="560" height="560">
-                <button class="slider__right"></button>
+                <button class="slider__right">
+                    <span class="visually-hidden">Перелистнуть вправо</span>
+                </button>
             </section>
 
             <section class="slider__description-1">
@@ -106,9 +114,15 @@
                 <div class="slider__detail">
                     <a href="#" class="slider__link">Подробнее</a>
                     <div class="slider__indicator">
-                        <button disabled class="slider__point"></button>
-                        <button class="slider__point"></button>
-                        <button class="slider__point"></button>
+                        <button disabled class="slider__point">
+                            <span class="visually-hidden">Вы на этой странице</span>
+                        </button>
+                        <button class="slider__point">
+                            <span class="visually-hidden">Переключиться на 2 страницу</span>
+                        </button>
+                        <button class="slider__point">
+                            <span class="visually-hidden">Переключиться на 3 страницу</span>
+                        </button>
                     </div>
                 </div>
                 <div class="slider__specification">
@@ -130,9 +144,15 @@
                 <div class="slider__detail">
                     <a href="#" class="slider__link">Подробнее</a>
                     <div class="slider__indicator">
-                        <button class="slider__point"></button>
-                        <button disabled class="slider__point"></button>
-                        <button class="slider__point"></button>
+                        <button class="slider__point">
+                            <span class="visually-hidden">Переключиться на 1 страницу</span>
+                        </button>
+                        <button disabled class="slider__point">
+                            <span class="visually-hidden">Вы на этой странице</span>
+                        </button>
+                        <button class="slider__point">
+                            <span class="visually-hidden">Переключиться на 3 страницу</span>
+                        </button>
                     </div>
                 </div>
                 <div class="slider__specification">
@@ -150,9 +170,15 @@
                 <div class="slider__detail">
                     <a href="#" class="slider__link">Подробнее</a>
                     <div class="slider__indicator">
-                        <button class="slider__point"></button>
-                        <button class="slider__point"></button>
-                        <button disabled class="slider__point"></button>
+                        <button class="slider__point">
+                            <span class="visually-hidden">Переключиться на 1 страницу</span>
+                        </button>
+                        <button class="slider__point">
+                            <span class="visually-hidden">Переключиться на 2 страницу</span>
+                        </button>
+                        <button disabled class="slider__point">
+                            <span class="visually-hidden">Вы на этой странице</span>
+                        </button>
                     </div>
                 </div>
                 <div class="slider__specification">
@@ -363,21 +389,26 @@
             <ul class="footer__list-2">
                 <li class="footer__page">
                     <a href="https://www.facebook.com/htmlacademy" class="footer__link-face">
+                        <span class="visually-hidden">Ссылка на фейсбук</span>
                         <div class="footer__link-face-img"></div>
                     </a>
                 </li>
                 <li class="footer__page">
                     <a href="https://www.instagram.com/htmlacademy/" class="footer__link-inst">
+                        <span class="visually-hidden">Ссылка на инстаграм</span>
                         <div class="footer__link-inst-img"></div>
                     </a>
                 </li>
                 <li class="footer__page">
                     <a href="https://twitter.com/htmlacademy_ru" class="footer__link-twet">
+                        <span class="visually-hidden">Ссылка на твитер</span>
                         <div class="footer__link-twet-img"></div>
                     </a>
                 </li>
             </ul>
-            <a href="https://htmlacademy.ru/" class="footer__img-html"></a>
+            <a href="https://htmlacademy.ru/" class="footer__img-html">
+                <span class="visually-hidden">Ссылка на сайт ХТМЛ академии</span>
+            </a>
         </div>
     </footer>
     
@@ -388,7 +419,9 @@
             <section class="modal__header">
                 <h2 class="modal__header-h2">Доставка под заказ</h2>
                 <span class="visually-hidden">Закрыть</span>
-                <button class="modal__button-close"></button>
+                <button class="modal__button-close">
+                    <span class="visually-hidden">Закрыть окно</span>
+                </button>
             </section>
             <form action="https://echo.htmlacademy.ru/" class="modal__form">
                 <div class="modal__name-and-email">
@@ -428,10 +461,14 @@
                         </div>
                         <div class="modal__quantily">
                             <span class="visually-hidden">минус</span>
-                            <button class="modal__quantily-minus"></button>
+                            <button class="modal__quantily-minus">
+                                <span class="visually-hidden">Сделать меньше</span>
+                            </button>
                             <input class="modal__input" type="number" id="quantily" placeholder="1" min="0">
                             <span class="visually-hidden">плюс</span>
-                            <button class="modal__quantily-plus"></button>
+                            <button class="modal__quantily-plus">
+                                <span class="visually-hidden">Сделать больше</span>
+                            </button>
                         </div>
                     </div>
                 </div>

@@ -989,7 +989,7 @@ ul, ol {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px 16px, #FFE17F 16px 24px, rgba(255, 255, 255, 0) 24px 40px);
 }
 
-.services-input[type="radio"]:checked + .services-label, .services-input[type="radio"]:checked + .services-crash {
+.services-input[type="radio"]:checked + .services-label {
     background: #000;
     color: #FFE17F;
     width: 260px;
@@ -1003,11 +1003,11 @@ ul, ol {
 }
 
 
-.services-label:hover, .services-crash:hover {
+.services-label:hover {
     background: linear-gradient(to bottom, #FFE17F 0px 16px, #FFE17F 16px 24px, #FFE17F 24px 40px);
 }
 
-.services-input[type="radio"]:disabled:focus  + .services-label, .services-input[type="radio"]:disabled:focus  + .services-crash{
+.services-input[type="radio"]:disabled:focus  + .services-label {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px 16px, #AF4FFF 16px 24px, rgba(255, 255, 255, 0) 24px 40px);
 }
 
@@ -1032,6 +1032,20 @@ ul, ol {
     color: #FFE17F;
     width: 245px;
     justify-content: flex-start;
+}
+
+.services-input[type="radio"]:focus  + .services-crash {
+    width: 140px;
+    color: #000;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px 16px, #AF4FFF 16px 24px, rgba(255, 255, 255, 0) 24px 40px);
+}
+
+.services-crash:hover {
+    background: linear-gradient(to bottom, #FFE17F 0px 16px, #FFE17F 16px 24px, #FFE17F 24px 40px);
+}
+
+.services-input[type="radio"]:disabled:focus  + .services-crash {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0px 16px, #AF4FFF 16px 24px, rgba(255, 255, 255, 0) 24px 40px);
 }
 
 .services {
@@ -2149,6 +2163,21 @@ fieldset {
     margin: 40px 0 0 0;
 }
 
+.options__button:hover {
+    outline: 10px solid #FFE17F;
+    background: linear-gradient(to bottom, #FFE17F 0px 7px, #FFE17F 7px 15px, #FFE17F 15px 20px);
+}
+
+.options__button:focus {
+    background: linear-gradient(to bottom, #ffe17f00 0px 7px, #AF4FFF 7px 15px, #ffe17f00 15px 20px);
+}
+
+.options__button:active {
+    outline: 10px solid #FFE17F;
+    color: rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, #FFE17F 0px 7px, #FFE17F 7px 15px, #FFE17F 15px 20px);
+}
+
 .ctscts__sorting {
     background-color: #EBEBEB;
 }
@@ -2731,6 +2760,7 @@ fieldset {
     position: absolute;
     top: 25px;
     display: none;
+    z-index: 4;
 }
 
 .modal__popover div {
@@ -2878,6 +2908,21 @@ fieldset {
     align-items: center;
     border:0;
     background: linear-gradient(to bottom, #fff 0px 7px, #FFE17F 7px 15px, #fff 15px 20px);
+}
+
+.modal__button:hover {
+    outline: 10px solid #FFE17F;
+    background: linear-gradient(to bottom, #FFE17F 0px 7px, #FFE17F 7px 15px, #FFE17F 15px 20px);
+}
+
+.modal__button:focus {
+    background: linear-gradient(to bottom, #ffe17f00 0px 7px, #AF4FFF 7px 15px, #ffe17f00 15px 20px);
+}
+
+.modal__button:active {
+    outline: 10px solid #FFE17F;
+    color: rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, #FFE17F 0px 7px, #FFE17F 7px 15px, #FFE17F 15px 20px);
 }
 
 .popover {
